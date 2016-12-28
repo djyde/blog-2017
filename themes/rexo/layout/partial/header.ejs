@@ -1,0 +1,19 @@
+<header>
+  <div class='description'>
+    <img src='https://avatars1.githubusercontent.com/u/914329?v=3&s=256' />
+    <p class='name'><%= config.author %></p>
+    <p class='desc'><%= config.description %></p>
+  </div>
+  <nav>
+    <ul class='nav'>
+      <li class='nav-item'>
+        <a href="/">Blog</a>
+      </li>
+      <% for(var i = 0; i < site.pages.data.length; i++) { %>
+        <li class='nav-item'>
+          <a href="/<%= site.pages.data[i].index %>"><%= site.pages.data[i].title %></a>
+        </li>
+      <% } %>
+    </ul>
+  </nav>
+</header>

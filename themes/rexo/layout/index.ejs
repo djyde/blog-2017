@@ -1,0 +1,59 @@
+<h2 class='hr'>
+  <span>About Me</span>
+</h2>
+<p>My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I wrote C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at <b>Alibaba Inc.</b></p>
+<h2 class='hr'>
+  <span>Posts</span>
+</h2>
+<ul class='post-list non-style-list'>
+  <% for(var i = 0; i < page.posts.data.length; i++) { %>
+    <li class='post-list-item'>
+      <a href='<%= page.posts.data[i].path %>'><%= page.posts.data[i].title %></a>
+      <span class='post-list-date'>(<%- date(page.posts.data[i].date, 'MMM, YYYY') %>)</span>
+    </li>
+  <% } %>
+</ul>
+<h2 class='hr'>
+  <span>Skills</span>
+</h2>
+<ul class='skill-list non-style-list'>
+  <% for(var i = 0; i < theme.skills.length; i++) { %>
+    <li class='post-list-item'><%= theme.skills[i] %></li>
+  <% } %>
+</ul>
+<h2 class='hr'>
+  <span>Talks</span>
+</h2>
+<ul class='talk-list non-style-list'>
+  <li class='talk-list-item'>
+    <span class='title'>Vue and Native</span>
+    <span class='at'> - 珠三角技术沙龙</span>
+    <span class='date'> (May, 2016)</span>
+  </li>
+  <li class='talk-list-item'>
+    <span class='title'>TypeScript</span>
+    <span class='at'> - Node 地下铁</span>
+    <span class='date'> (Dec, 2016) - </span>
+    <a href='http://slides.com/randylu/deck-3/'>Slide</a>
+  </li>  
+</ul>
+<h2 class='hr'>
+  <span>Contact</span>
+</h2>
+<ul class='contact-list non-style-list'>
+  <li>
+    <b class='twitter'>TWITTER</b>: <a href='https://twitter.com/randyloop'>@randyloop</a>
+  </li>
+  <li>
+    <b class='weibo'>WEIBO</b>: <a href='http://weibo.com/djyde'>@米斯特软的</a>
+  </li>
+  <li>
+    <b class='zhihu'>ZHIHU</b>: <a href='https://zhihu.com/people/djyde'>卢涛南</a>
+  </li>
+  <li>
+    <b class='github'>GITHUB</b>: <a href='https://github.com/djyde'>djyde</a>
+  </li>
+  <li>
+    <b class='email'>EMAIL</b>: <a href='mailto:randypriv@gmail.com'>randypriv at gmail</a>
+  </li>
+</ul>
