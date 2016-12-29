@@ -232,7 +232,7 @@ module.exports = {
 
 最后会被分别打包成 `timeline.bundle.js` 和 `profile.bundle.js`。
 
-###loader
+### loader
 
 webpack 神奇的地方在于，任何的文件都能被 `require()`。依靠各种 loader，使你可以直接 `require()` 样式、图片等静态文件。这些静态文件最后都会被处理（比如 scss pre-process 和图片的压缩）和打包在配置好的 output path 中。
 
