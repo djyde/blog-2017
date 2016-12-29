@@ -5,6 +5,8 @@ menus:
     index: /timeline
   - title: Music
     index: /music
+  - title: RSS
+    index: /rss.xml
 
 skills:
   - Fundamental HTML/CSS/ECMAScript(5/6/7)
@@ -41,3 +43,5 @@ contacts:
   - className: email
     href: mailto:randypriv@gmail.com
     title: randypriv at gmail
+
+ga_track_id: UA-72147868-2
