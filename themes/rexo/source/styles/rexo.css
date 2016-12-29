@@ -623,6 +623,8 @@ nav .nav .nav-item {
   border-bottom: 1px solid #A7ADBA;
   margin-top: 3em;
   margin-bottom: 1.2em;
+  cursor: default;
+  user-select: none;
 }
 
 .hr span {
@@ -679,4 +681,22 @@ nav .nav .nav-item {
 
 .timeline ul li {
   margin-bottom: 1em;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  .post-body img {
+    max-width: 75%;
+  }
+
+  .description .desc {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }

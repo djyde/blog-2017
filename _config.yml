@@ -69,3 +69,10 @@ theme: rexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+feed:
+  type: atom
+  path: rss
+  limit: 20
+  hub:
+  content: true
