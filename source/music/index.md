@@ -14,6 +14,6 @@ date: 2016-12-28 22:48:00
 - [小幸运（粤语）](http://changba.com/s/L8DJPRn2rzbYu9rY3qd6vQ)
 - [不将就](http://kg.qq.com/share.html?s=jQNkE5KhU77r)
 
-### Chorus
+### CHORUS
 
 - [左邻右里 x 谭慧臻](http://kg.qq.com/share.html?s=A42bOGJXwf4p)

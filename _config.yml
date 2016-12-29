@@ -68,7 +68,8 @@ theme: rexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@git.coding.net:djyde/djyde.coding.me.git
 
 feed:
   type: atom

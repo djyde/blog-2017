@@ -6,12 +6,9 @@
   </div>
   <nav>
     <ul class='nav'>
-      <li class='nav-item'>
-        <a href="/">Blog</a>
-      </li>
-      <% for(var i = 0; i < site.pages.data.length; i++) { %>
+      <% for(var i = 0; i < theme.menus.length; i++) { %>
         <li class='nav-item'>
-          <a href="/<%= site.pages.data[i].index %>"><%= site.pages.data[i].title %></a>
+          <a href="<%= theme.menus[i].index %>"><%= theme.menus[i].title %></a>
         </li>
       <% } %>
     </ul>
