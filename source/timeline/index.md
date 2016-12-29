@@ -26,8 +26,8 @@ date: 2016-12-28 22:39:22
 *   **2014-12-06** 开源 CSS 滤镜库 [FilterAwesome](http://djyde.github.io/FilterAwesome/)
 *   **2014-11-27** 上线 [Musicda](http://musicda.avosapps.com), 在这里说出音乐的故事。
 *   **2014-11-15** 开源 [MoniCoin](https://github.com/djyde/MoniCoin), 一个虚拟比特币交易网站应用
-*   **2014-10-19** 翻译的 [Realm 中文文档](http://djyde.github.io/2014/10/17/realm-doc-in-chinese.html) 被推到 [Realm 官方文档页面](http://realm.io/docs/java/)
-*   **2014-8-28** 在 [豌豆荚](http://www.wandoujia.com/apps/com.randy.client.v2hot)上线我的第一款 Android应用 [V2HOT](/2014/08/28/v2hot-release.html)
+*   **2014-10-19** 翻译的 **Realm 中文文档** 被推到 [Realm 官方文档页面](http://realm.io/docs/java/)
+*   **2014-8-28** 在 [豌豆荚](http://www.wandoujia.com/apps/com.randy.client.v2hot)上线我的第一款 Android应用 [V2HOT](https://github.com/djyde/V2HOT)
 *   **2014-8-26** 用 [Jekyll](http://jekyllrb.com/) 开通博客
 *   **2014-8-3** 正式投入 Android 开发
 *   **2014-8-1** 以高考分数 472（重点线 580）被 [广州大学华软软件学院](http://www.sise.com.cn/) 软件工程系录取
