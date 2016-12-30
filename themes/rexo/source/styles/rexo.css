@@ -504,6 +504,10 @@ body {
   margin: 0;
 }
 
+twitterwidget {
+  margin: 0 auto;
+}
+
 a {
   text-decoration: underline;
   color: #343D46;
