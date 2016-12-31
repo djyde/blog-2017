@@ -642,8 +642,12 @@ nav .nav .nav-item {
   line-height: 1.8em;
 }
 
-.post-body h1 {
-  margin-bottom: 2em;
+.post-body .title {
+}
+
+.post-body .date {
+  color: #A7ADBA;
+  margin-bottom: 2em;  
 }
 
 .post-body p {
