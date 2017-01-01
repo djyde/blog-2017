@@ -105,6 +105,6 @@ Pure Function 的好处是利于维护和测试。要测试一个 Pure Function,
 
 ![](/images/state-effect-view.png)
 
-测试这样的程序，首先为 side effect 的逻辑做测试，再为 View 做测试。View 的测试在这里就十分简单了，给他传一个 store 实例，借助 [anzyme](https://github.com/airbnb/enzyme) 之类的 testing utilities 预言不同的 action 得到的返回 View.
+测试这样的程序，首先为 side effect 的逻辑做测试，再为 View 做测试。View 的测试在这里就十分简单了，给他传一个 store 实例，借助 [enzyme](https://github.com/airbnb/enzyme) 之类的 testing utilities 预言不同的 action 得到的返回 View.
 
 React 是 Reactive Programming 在 Web User Interface 上实现的手段，它只不过是一个库，提供了reactive render, component system 和降低开销的 DOM diff 算法. 把 React 换掉，只要不是手动操作 DOM, 其它的框架也不过大同小异。重要的是理解它背后的思想。说到底，前端开发在解决什么问题，用什么样的方式解决问题，在使用任何框架和库之前先把这两个问题思考明白，就不会认为前端难学了。
