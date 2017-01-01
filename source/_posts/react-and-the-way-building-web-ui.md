@@ -76,7 +76,7 @@ function add (a, b) {
 }
 ```
 
-这个求和函数就是一个 pure function. 因为函数内部没有对 input 做任何改变，并且返回一个新的值。我传 1 和 1，得到的永远是 3.
+这个求和函数就是一个 pure function. 因为函数内部没有对 input 做任何改变，并且返回一个新的值。我传 1 和 1，得到的永远是 2.
 
 Pure Function 的好处是利于维护和测试。要测试一个 Pure Function, 仅仅是传不同的值，预言对应的返回值。
 
