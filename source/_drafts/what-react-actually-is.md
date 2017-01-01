@@ -2,11 +2,6 @@
 title: what-react-actually-is
 tags:
 ---
----
-title: What React actually is
-date: 2016-12-30 11:07:26
-tags:
----
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If using React makes u confused, it&#39;s time to think about what React actually is. It&#39;s a great DOM diff algorithm with component system.</p>&mdash; Randy (@randyloop) <a href="https://twitter.com/randyloop/status/814663047541231616">December 30, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -38,7 +33,7 @@ Imagine we are going to write a clock. We will write:
 </script>
 ```
 
-This is good enough. But as we all know, web application is complicated, we don't want to mutate the DOM ourselves. **What if the UI is a function**:
+This is good enough. But as we all know, web application is complicated, we don't want to mutate the DOM ourselves.
 
 
 ```javascript
@@ -55,7 +50,7 @@ function render () {
 setInterval(render, 1000)
 ```
 
-The `Clock` is just function, it receive a params and display it in a span. We set an interval to pass a new date string to Clock and `render()` the UI every one second. In this way, we don't need to mutate the DOM. We just explain what the DOM likes, and apply it to the root element.
+We set an interval to pass a new date string to Clock and `render()` the UI every one second. In this way, we don't need to mutate the DOM. We just explain what the DOM likes, and apply it to the root element.
 
 Everything done right. But what is the problem if we write our UI in this way?
 
@@ -84,5 +79,26 @@ setInterval(render, 1000)
 `ReactDOM.render` knows which node should be rerender.
 
 ![](/images/react-render-clock.gif)
+
+This is the basic part of React. Let's take a deep dive into it.
+
+In functional programming, people always say **pure function**. What is **pure function** means? It means a function receive inputs and return output but will not modify the input.
+
+For example, let write an `add` function:
+
+```javascript
+function add (a, b) {
+  return a + b
+}
+```
+
+It receives two input and return the sum of two inputs. It didn't change `a` or `b`, and return a new number. If we pass 1 and 2 it will return 3 forever. This is pure funciton. **The function always evaluates the same result value given the same argument value.**
+
+## UI as a function
+
+```javascript
+state => UI
+```
+
 
 <!--After using React for a year, I learn a lot. It's not only change my way to build web UI, I also learn a lot about FP (Functional Programming). -->
