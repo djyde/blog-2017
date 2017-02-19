@@ -483,6 +483,9 @@ blockquote p {
 }
 
 iframe {
+  width: 498px;
+  height: 510px;
+  max-width: 100%;
   border: none;
   margin: 0 auto;
   display: block;
@@ -700,11 +703,20 @@ nav .nav .nav-item {
   }
 
   .post-body img {
-    max-width: 75%;
+    width: 100%;
   }
 
   .description .desc {
     padding-left: 2em;
     padding-right: 2em;
   }
+
+  iframe {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+embed {
+
 }
