@@ -1,5 +1,5 @@
 ---
-title: 电脑键盘中的流行钢琴伴奏
+title: 电脑键盘上的流行钢琴伴奏
 date: 2017-02-19 14:53:38
 tags:
   - lifeshacker
