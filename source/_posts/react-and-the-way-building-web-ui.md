@@ -2,6 +2,9 @@
 title: 从 React 谈 Web UI 开发
 date: 2017-01-01 02:19:36
 tags:
+  - frontend
+  - react
+pin: true
 ---
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If using React makes u confused, it&#39;s time to think about what React actually is. It&#39;s a great DOM diff algorithm with component system.</p>&mdash; Randy (@randyloop) <a href="https://twitter.com/randyloop/status/814663047541231616">December 30, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

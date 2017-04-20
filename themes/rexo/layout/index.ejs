@@ -3,15 +3,26 @@
 </h2>
 <p>My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at <b>Alibaba Inc.</b></p>
 <h2 class='hr'>
+  <span>featured</span>
+</h2>
+<ul class='post-list non-style-list'>
+  <% page.posts.filter(function (post) { return post.pin }).forEach(function(post) { %>
+    <li class='post-list-item'>
+      <a href='<%= post.path %>'><%= post.title %></a>
+      <span class='post-list-date'>(<%- date(post.date, 'MMM, YYYY') %>)</span>
+    </li>
+  <% }) %>
+</ul>
+<h2 class='hr'>
   <span>Posts</span>
 </h2>
 <ul class='post-list non-style-list'>
-  <% for(var i = 0; i < page.posts.data.length; i++) { %>
+  <% page.posts.filter(function (post) { return !post.pin }).forEach(function(post) { %>
     <li class='post-list-item'>
-      <a href='<%= page.posts.data[i].path %>'><%= page.posts.data[i].title %></a>
-      <span class='post-list-date'>(<%- date(page.posts.data[i].date, 'MMM, YYYY') %>)</span>
+      <a href='<%= post.path %>'><%= post.title %></a>
+      <span class='post-list-date'>(<%- date(post.date, 'MMM, YYYY') %>)</span>
     </li>
-  <% } %>
+  <% }) %>
 </ul>
 <%- partial('partial/skill_list') %>
 <%- partial('partial/talk_list') %>

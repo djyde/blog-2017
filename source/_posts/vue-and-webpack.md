@@ -5,6 +5,7 @@ tags:
   - javascript
   - tech
   - vue
+pin: true
 ---
 
 **转载前请务必先联系邮箱**
