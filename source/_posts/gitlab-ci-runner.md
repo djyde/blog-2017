@@ -45,8 +45,6 @@ sudo service docker restart
 sudo docker pull gitlab/gitlab-runner:latest
 ```
 
-> 集团 Gitlab 是 9.0 版本以下，需安装 1.x 版本 `sudo docker pull gitlab/gitlab-runner:v1.11.1`
-
 ### 添加 gitlab-runner container
 
 ```bash
@@ -55,8 +53,6 @@ sudo docker run -d --name gitlab-runner --restart always \
   -v /var/run/docker.sock:/var/run/docker.sock \
   gitlab/gitlab-runner:latest
 ```
-
-> 请注意最后一行的版本号
 
 ### 配置用于 runner 的 docker image
 
