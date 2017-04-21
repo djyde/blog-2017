@@ -165,3 +165,4 @@ nano /etc/gitlab-runner/config.toml
 - [Run GitLab Runner in a container](https://docs.gitlab.com/runner/install/docker.html)
 - [配置 Docker 加速器](https://www.daocloud.io/mirror#accelerator-doc)
 - [Best practices for writing Dockerfiles](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
+- [Using the if-not-present pull policy](https://docs.gitlab.com/runner/executors/docker.html#using-the-if-not-present-pull-policy)
