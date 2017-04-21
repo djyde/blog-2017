@@ -128,7 +128,37 @@ Please enter the default Docker image (e.g. ruby:2.1):
 
 ![](//ww2.sinaimg.cn/large/006tNc79gy1fetbnh1e12j310008qdgs.jpg)
 
-### 注册
+## FAQ
+
+### CI 运行时出现 `ERROR: Job failed: API error (404): repository xxx not found: does not exist or no pull access`
+
+这是由于 Gitlab 会默认从远程拉取 image，而我们的 image 是在本地构建的，所以需要对 gitlab-runner 进行配置，把 `pull_policy` 设置为 `if-not-present` 或 `never`.
+
+```bash
+# 进入 gitlab-runner 的 bash 环境
+sudo docker exec -it gitlab-runner bash
+
+# 编辑 config.toml
+nano /etc/gitlab-runner/config.toml
+```
+
+编辑 `config.toml` 中对应的 runner:
+
+```diff
+[[runners]]
+  name = ""
+  url = ""
+  token = ""
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "nb-node"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
++   pull_policy = "if-not-present"
+  [runners.cache]
+```
 
 ## 延伸阅读
 
