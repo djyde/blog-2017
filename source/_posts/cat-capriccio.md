@@ -4,7 +4,7 @@ date: 2017-08-20 22:51:55
 tags:
 ---
 
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fiqjf1103mj31kw11xe85.jpg)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fiql3pxyssj31kw11x0w8.jpg)
 
 我是个很怕负责任并且不感性的人，养一只猫对我来说，是一种很大的责任。
 
@@ -12,7 +12,7 @@ tags:
 
 我外甥女今年刚好是 3 岁，有时候我也觉得和猫很像：见到什么都要摸摸看，甚至打翻。
 
-![](https://ws1.sinaimg.cn/large/006tNc79gy1fiqje56ku1j31kw16ou0x.jpg)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fiql519bi7j31kw16owiy.jpg)
 
 对于猫打翻东西，一般来说，主人都会生气。但是我想，3 岁的小孩打翻了东西，其实是监护人的责任。既然家里多了这个不懂事的小孩，易打翻的东西就不该让她碰到。出现事故，自己要先反思。
 
@@ -22,9 +22,9 @@ tags:
 
 第一次带她去医院打疫苗，在医院里我和几个素味谋面的猫主人狗主人竟然可以自然地打成一片，互相交流育宠经验，然后让自己的宠物见一见对方的宠物。大家都像妈妈们互相交流育儿经验似的。
 
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fiqkchv1j7j31kw23vkjl.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fiql61x2ukj31kw23vtdy.jpg)
 
-![](https://ws2.sinaimg.cn/large/006tNc79gy1fiqk6rg270j31kw23vkjm.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fiql69t9fxj31kw23vgyo.jpg)
 
 有时候在路上看到走过的流浪猫，会想要不要把它养了，让她有个伴。但是想想，我确实还没有做好二胎的准备。
 
@@ -38,4 +38,4 @@ tags:
 
 以上。
 
-![](https://ws3.sinaimg.cn/large/006tNc79gy1fiqkt42nobj31kw11xkjn.jpg)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fiql4208ayj31kw11xtcw.jpg)
