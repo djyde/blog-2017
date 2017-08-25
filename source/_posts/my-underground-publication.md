@@ -45,5 +45,5 @@ tags:
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fiw9ryihc9j30hs0by0up.jpg)
 
-*「校运会，小编们的一次合照」*
+*校运会，「小编」们的一次合照*
 
