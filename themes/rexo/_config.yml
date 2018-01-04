@@ -43,5 +43,8 @@ contacts:
   - className: email
     href: mailto:randypriv@gmail.com
     title: randypriv at gmail
+  - className: instagram
+    href: https://www.instagram.com/randy_fam/
+    title: 'randy_fam'
 
 ga_track_id: UA-72147868-2
