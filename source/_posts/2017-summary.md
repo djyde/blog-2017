@@ -15,7 +15,7 @@ tags:
 
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1fn3migpdnvj30tx0txaf6.jpg)
 
-在年底，和 @EGOIST 一起创办了 [StickreOverflow](https://stickeroverflow.org). 成功地让国内的开发者能买到高质量的技术贴纸。
+在年底，和 @EGOIST 一起创办了 [StickerOverflow](https://stickeroverflow.org). 成功地让国内的开发者能买到高质量的技术贴纸。
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcgy1fn3n2vutcoj30u00u0nah.jpg)
 
