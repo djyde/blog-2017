@@ -558,6 +558,10 @@ a:hover {
   color: #4285F4;
 }
 
+.telegram {
+  color: #179cde;
+}
+
 .non-style-list {
   list-style-type: none;
   margin: 0;
