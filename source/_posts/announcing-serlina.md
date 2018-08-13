@@ -7,7 +7,7 @@ date: 2018-08-13 17:44:09
 
 上一周周末我花了些时间来完成了一个 React serverside-rendering 框架——[Serlina](https://github.com/djyde/serlina). 在此想通过这篇文章讲讲 Serlina 框架本身，以及我为什么要开发她。
 
-(为方便，把下方 React Serverside-rendering 均简称为 "SSR")
+(下文中 React Serverside-rendering 均简称为 "SSR")
 
 ## 起因
 
