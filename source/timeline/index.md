@@ -39,7 +39,7 @@ date: 2016-12-28 22:39:22
 *   **2012下半年** 继续钻研 Node.js 和 web 开发技术，同时加入 [kissjs小组](https://github.com/kissjs)
 *   **2012-6** 发布开源本土化 Chrome 插件 Store [ExMarket](https://github.com/djyde/ExMarket)，全站使用 ExpressJS + MongoDB
 *   **2012-05** 学习 JavaScript. 读了几遍 [JavaScript高级程序设计](http://book.douban.com/subject/10546125/)。发现JavaScript是我用过最适合自己的语言。学习 Node.js 带给我很多，例如版本控制（Git）、NoSQL（我用的主要是MongoDB）等等，同时我开始活跃在开源社区，发布一些开源项目。
-*   **2011-11-12** 参加在广州国际会议中心举行的 Google 开发者技术大会，来自 Google 的布道师和工程师在台上给我们演示了当时还没发布的 Nexus 和 Android ICS。毫无疑问在场最小的还是我…
+*   **2011-11-12** 参加在广州国际会议中心举行的 Google 开发者技术大会，来自 Google 的布道师和工程师在台上给我们演示了当时还没发布的 Nexus 和 Android ICS.
 *   **2011上半年** 备战中考
 *   **2010下半年** 真空期，没做什么，准备中考，这段时间感觉前途一片迷茫
 *   **2010上半年** 学习 Python，用 python 做 web 开发。学习 [web.py](http://webpy.org) 和 [tornado](http://www.tornadoweb.org) 给了我全新的开发体验。
