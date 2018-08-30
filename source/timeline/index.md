@@ -8,6 +8,7 @@ date: 2016-12-28 22:39:22
 
 #### (不断更新)
 
+*   **2018-8** 開源 [Serlina](https://serlina.js.org)
 *   **2016-3-7** 加入阿里巴巴移动事业群 UC
 *   **2015-01-04** 创立前端技术类 podcast 节目 JSNext.fm 
 *   **2015-11-19** 开源 Swift 编写的 Web app 打包工具 [WebShell](http://djyde.github.io/WebShell/)
