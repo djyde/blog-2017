@@ -708,6 +708,12 @@ nav .nav .nav-item {
     box-sizing: border-box;
   }
 
+  .post-body {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
   .post-body img {
     width: 100%;
   }
