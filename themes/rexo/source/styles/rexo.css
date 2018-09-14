@@ -708,6 +708,11 @@ nav .nav .nav-item {
     box-sizing: border-box;
   }
 
+
+  .bmc {
+    max-width: 60% !important;
+  }
+
   .post-body {
     width: 100%;
     padding: 1em;
@@ -727,6 +732,11 @@ nav .nav .nav-item {
     width: 100%;
     height: 280px;
   }
+}
+
+
+.bmc {
+  max-width: 30%;
 }
 
 code {
