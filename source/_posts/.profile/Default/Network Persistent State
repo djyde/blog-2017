@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"https://www.google.com":{"supports_spdy":true}},{"https://www.google.com.hk":{"supports_spdy":true}},{"https://accounts.google.com":{"supports_spdy":true}},{"https://cdn.nlark.com":{"supports_spdy":true}},{"https://ws2.sinaimg.cn":{"supports_spdy":true}},{"https://codesandbox.io":{"supports_spdy":true}}],"version":5}}}
