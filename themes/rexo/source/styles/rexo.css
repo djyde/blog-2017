@@ -491,6 +491,10 @@ iframe {
   display: block;
 }
 
+.spotify {
+  height: 380px;
+}
+
 /*pre {
   overflow: auto;
   background-color: #D8DEE9;
@@ -732,6 +736,12 @@ nav .nav .nav-item {
     width: 100%;
     height: 280px;
   }
+
+  .spotify {
+    display: none;
+    height: 380px;
+  }
+  
 }
 
 
