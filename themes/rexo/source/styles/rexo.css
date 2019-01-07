@@ -705,13 +705,17 @@ nav .nav .nav-item {
 }
 
 
+
+img.small {
+  width: 400px;
+}
+
 @media (max-width: 600px) {
   .container {
     width: 100%;
     padding: 1em;
     box-sizing: border-box;
   }
-
 
   .bmc {
     max-width: 60% !important;
