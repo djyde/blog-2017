@@ -8,7 +8,7 @@ menus:
   - title: RSS
     index: /rss.xml
   - title: Donate
-    index: 'https://www.patreon.com/djyde'
+    index: /blog/donation
 
 skills:
   - Fundamental HTML/CSS/ECMAScript(5/6/7)
