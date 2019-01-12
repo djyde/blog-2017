@@ -7,6 +7,8 @@ menus:
     index: /music
   - title: RSS
     index: /rss.xml
+  - title: About
+    index: /about
   - title: Donate
     index: /blog/donation
 
