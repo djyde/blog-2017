@@ -30,7 +30,7 @@ export function generateSignString (salt) {
 这是一个用于生成签名字符串的函数，从逻辑上看，这段代码没有问题。但是，当另一个对这个函数内部实现不了解的开发人员使用它时，会返回意想不到的结果：
 
 ```javascript
-import { generateSignString } fro './utils'
+import { generateSignString } from './utils'
 const salt = new Date().getTime()
 const signStr = generateSignString(salt)
 ```
