@@ -4,7 +4,9 @@ date: 2019-01-10 10:15:39
 hide: true
 ---
 
-现在你除了可以在文末的赞赏码给我支持以外，还可以通过 [我的 Patreon](https://patreon.com/djyde) 成为我的 Patron. 
+现在你除了可以在文末的赞赏码给我支持以外，还可以通过订阅我的[付费专栏](https://xiaozhuanlan.com/djyde) 表达你的支持. 付费专栏完全同步我的博客内容（但不排除之后会有独家内容）。
+
+另外，你也可能通过 [我的 Patreon](https://patreon.com/djyde) 成为我的 Patron. 
 
 Patreon 的捐助方式为月付，我设定了以下几种 TIER:
 
