@@ -11,6 +11,8 @@ menus:
     index: /about
   - title: Donate
     index: /blog/donation
+  - title: 购买贴纸
+    index: http://stickeroverflow.xyz
 
 skills:
   - Fundamental HTML/CSS/ECMAScript(5/6/7)
