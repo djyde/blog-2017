@@ -731,6 +731,11 @@ img.small {
     width: 100%;
   }
 
+
+  .signature {
+    max-width: 128px !important;
+  }
+
   .description .desc {
     padding-left: 2em;
     padding-right: 2em;
