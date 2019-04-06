@@ -64,7 +64,7 @@ K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一
 
 这是在 iPad 上写的同样的字：
 
-![](//randysblog.oss-cn-shenzhen.aliyuncs.com/DSC02391.JPG?x-oss-process=image/resize,w_2560/quality,q_80) 
+![](//randysblog.oss-cn-shenzhen.aliyuncs.com/DSC02391.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 # 总结
 
