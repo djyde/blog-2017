@@ -32,7 +32,7 @@ iPad mini 2 相对于 Kindle Paperwhite 来说已经大了不少，而在 iPad P
 
 ![](//randysblog.oss-cn-shenzhen.aliyuncs.com/Snapseed%203.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
 
-周末出差时，我的周报都是在 iPad Pro 上完成的。我用讯飞语音完成周报的文字录入，准确率比想象中高得多。讯飞可以满足大部分的文字录入需求，当然，有些场景不方便使用语音输入。这时有个键盘是更好的选择。迫于贫穷，我没有买 Smart Keyboard, 而是买了只要 178 元的 [罗技 k380](https://u.jd.com/V08AyQ).
+周末出差时，我的周报都是在 iPad Pro 上完成的。我用讯飞语音完成周报的文字录入，准确率比想象中高得多。讯飞可以满足大部分的文字录入需求，当然，有些场景不方便使用语音输入。这时有个键盘是更好的选择。迫于贫穷，我没有买 Smart Keyboard, 而是买了只要 178 元的罗技 k380.
 
 ![](//randysblog.oss-cn-shenzhen.aliyuncs.com/9C93C41D5DB7-1.jpeg?x-oss-process=image/resize,w_2560/quality,q_80)
 
