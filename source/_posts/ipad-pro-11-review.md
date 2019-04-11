@@ -75,3 +75,8 @@ K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一
 另外一个矛盾的地方是，如果我带上键盘去用 iPad Pro, 那么我为什么不直接用 Macbook 呢？有人会说，iPad Pro 11 寸的重量只有 468 克，而我手上的 Macbook Pro 15 寸则有 1830 克，是几乎 5 台 iPad Pro 的重量。但说实话，背在背包里，我根本不介意这 1400 克的差异，所以于我而言，iPad Pro 太尴尬了，它可以做很多，但 Macbook Pro 可以做得更多。
 
 对于程序员群体，iPad Pro 是一个可有可无的设备。而对于那些主要以文字录入、图片处理、手写笔记为主要任务的群体，那么 iPad Pro 还是很值得入手的。
+
+### 相关链接
+
+- [iPad Pro 支架](https://lutaonan.com/link/ipad-stand)
+- [罗技 k380 蓝牙键盘](https://lutaonan.com/link/logitech-k380)
