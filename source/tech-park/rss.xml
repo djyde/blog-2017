@@ -7,11 +7,12 @@
     <copyright></copyright>
     <itunes:subtitle></itunes:subtitle>
     <itunes:author>Randy</itunes:author>
-    <itunes:summary>一档由广东人主持的播客</itunes:summary>  
+    <itunes:summary>一档由广东程序员主持的播客</itunes:summary>  
     <itunes:owner>
       <itunes:name>Randy</itunes:name>
       <itunes:email>randypriv@gmail.com</itunes:email>
     </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://s2.ax1x.com/2019/05/05/Ew77yd.png" />
     <itunes:category text="Technology"/>
     
