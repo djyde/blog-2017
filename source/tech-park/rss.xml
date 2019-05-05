@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>科技公园前</title>
+    <link>https://lutaonan.com/tech-park</link>
+    <language>zh</language>
+    <copyright></copyright>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:author>Randy</itunes:author>
+    <itunes:summary>一档由广东人主持的播客</itunes:summary>  
+    <itunes:owner>
+      <itunes:name>Randy</itunes:name>
+      <itunes:email>randypriv@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://s2.ax1x.com/2019/05/05/Ew77yd.png" />
+    <itunes:category text="Technology"/>
+    
+      <item>
+        <title>#1 - 广东程序员在异乡</title>
+        <itunes:author>Randy</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary>本期有 Randy, Tony, 启邦和亦添，四位广东的程序员谈论离开广东到异地（北京、杭州）工作的感受。
+
+PS: 本集使用粤语。</itunes:summary>
+        <itunes:image href="" />
+        <enclosure url="http://tech-party.lutaonan.com/%E7%A7%91%E6%8A%80%E5%85%AC%E5%9B%AD%E5%89%8D%E7%AC%AC%E4%B8%80%E6%9C%9F.mp3" length="" type="audio/mpeg"/>
+        <guid>tech-park-#1</guid>
+        <pubDate>Sun May 05 2019 11:13:08 GMT+0800 (中国标准时间)</pubDate>
+        <itunes:duration>1:06:26</itunes:duration>
+      </item>
+    
+  </channel>
+  </rss>
