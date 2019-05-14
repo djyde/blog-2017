@@ -55,7 +55,7 @@ tags:
 
 ### 健身
 
-<img class="small" src="https://ws4.sinaimg.cn/large/006tNc79ly1fyy4u0ie1bj30pa0pan1o.jpg" />
+<img class="small" src="http://bstatic.djyde.com/assets/006tNc79ly1fyy4u0ie1bj30pa0pan1o.jpg" />
 
 健身可以说是 2018 年唯一一件做成了的事情。我从 2018 年 1 月份开始健身，每周训练 3-4 天，控制饮食。直到现在刚好整整一年，达到了从 46kg 到 54 kg 的变化。
 
@@ -79,7 +79,7 @@ tags:
 
 ## 博客成绩
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fyy7f777sfj31im0cead2.jpg)
+![](http://bstatic.djyde.com/assets/006tNc79ly1fyy7f777sfj31im0cead2.jpg)
 
 在这一年收到了挺多的读者来信，向我询问建议，我都尽量抽时间一一回复。还有一些文章收到的打赏留言里提到的因为我的文章而有所收获，让我知道我写的博客的确有他的价值所在。
 

@@ -7,7 +7,7 @@ tags:
 > 本文不提供训练计划
 > 本文不提供饮食计划
 
-<img class="small" src="https://ws4.sinaimg.cn/large/006tNc79ly1fyy4u0ie1bj30pa0pan1o.jpg" />
+<img class="small" src="http://bstatic.djyde.com/assets/006tNc79ly1fyy4u0ie1bj30pa0pan1o.jpg" />
 
 我在[《2018 年终总结》](/blog/2018-summary)里提到了我健身的成果，在这篇文章里，我将分享我健身的过程，以及身体上、心智上的一些成长。
 
