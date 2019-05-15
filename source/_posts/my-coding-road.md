@@ -40,19 +40,19 @@ pin: true
 
 学习了一段时间后，我开发了第一个上线到软件站的软件，叫做「网帝系统清理助手 2009」，至今还能 Google 出来。
 
-![网帝系统清理助手](//ww4.sinaimg.cn/large/006tNbRwgy1ffihstvr4cj30j50ej406.jpg)
+![网帝系统清理助手](//bstatic.djyde.com/assets/006tNbRwgy1ffihstvr4cj30j50ej406.jpg)
 
 我那时非常中二，成立了自己的虚拟软件工作室，取名「网帝」。这是一个充满抱负的名字，因为他的含义是「互联网帝王」。
 
 软件上线了以后，在各个软件站的下载量很不错，于是我又马不停蹄地开发了第二个软件，叫「网帝 QQ2009 去广告精灵」，用来去 QQ2009 里的广告的。
 
-![网帝 QQ2009 去广告精灵](//ww3.sinaimg.cn/large/006tNbRwgy1ffihwq5n5vj30cz0a3wfu.jpg)
+![网帝 QQ2009 去广告精灵](//bstatic.djyde.com/assets/006tNbRwgy1ffihwq5n5vj30cz0a3wfu.jpg)
 
 我那时候开始泡易语言的论坛，结识了很多论坛里的大牛，那时候称「大虾」。我记得有一个网名叫「凝逸」的版主，用易语言开发了一个叫「凝逸反病毒」的杀毒软件。我很震惊，因为我非常好奇杀毒软件的工作原理。于是我在他的帖子里询问，但是他没有回过我一次。
 
 我又通过自己的摸索，做了一个可以根据病毒库查找病毒、保护 IE 主页的杀毒软件，「极光反病毒」。
 
-![极光反病毒](//ww4.sinaimg.cn/large/006tNbRwgy1ffii37s8ejj30ik0emmym.jpg)
+![极光反病毒](//bstatic.djyde.com/assets/006tNbRwgy1ffii37s8ejj30ik0emmym.jpg)
 
 以上三个软件是我做桌面软件时的产出，当时还在读初一。做完极光反病毒的第一版后，我觉得这种反病毒太傻，要依赖特征库去匹配病毒。病毒稍微变种，就查不出来了。于是我想要做一个防御式的反病毒工具，根据文件的行为，来判断它是不是病毒。比如如果这个文件在不断复制自己，那么它肯定是病毒。
 
@@ -60,7 +60,7 @@ pin: true
 
 2010 年年底有一部电影对我影响很大，讲 Zuckerberg 创立 Facebook 的经历，叫《社交网络》。
 
-![The Social Network](//ww3.sinaimg.cn/large/006tNbRwgy1ffify2ip6jj30bk0go40a.jpg)
+![The Social Network](//bstatic.djyde.com/assets/006tNbRwgy1ffify2ip6jj30bk0go40a.jpg)
 
 这部电影我反复看了 7, 8 遍，我觉得用技术做出有很多人喜欢的产品太酷了，我很想成为这样的人，应该是我终身奋斗的目标。这部电影，直接导致我放弃了桌面软件开发，正式转向了 Web 开发。
 
@@ -68,7 +68,7 @@ pin: true
 
 这本书的作者是专门搞 PHP 培训的，讲得比较浅显易懂，成了我的救命宝典。从那本书里，我对 PHP Web 开发有了一个大概的了解，知道 LAMP 架构，知道一个完整的 Web 系统应该有哪些基本的部分，知道什么是模板引擎，更重要的是，开始接触 Linux。读完读那本《PHP + MySQL 程序设计》，犹如打通了任督二脉。
 
-![](//ww2.sinaimg.cn/large/006tNbRwgy1ffiiwdpdj5j30w40saq8h.jpg)
+![](//bstatic.djyde.com/assets/006tNbRwgy1ffiiwdpdj5j30w40saq8h.jpg)
 
 后来我用 PHP 做了一个我们校内的非常精简的社交平台，不是说我那时就开始崇尚极简，而是我的能力就到这了。于是脑抽风去找学校的副校长谈，结果副校长说这个不错，但是我们不主张校内建的讨论区。
 

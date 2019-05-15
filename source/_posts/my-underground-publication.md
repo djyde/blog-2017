@@ -34,16 +34,16 @@ tags:
 
 以上是我对这份刊物仅剩的几乎所有回忆，手写的稿早就在初中一次搬课室的过程中丢失了。谁会想到这些东西未来会被这样津津乐道呢。这确实是一个遗憾。
 
-![](https://ws3.sinaimg.cn/large/006tNc79gy1fiw9q3a4rvj30hs07e753.jpg)
+![](//bstatic.djyde.com/assets/006tNc79gy1fiw9q3a4rvj30hs07e753.jpg)
 
 *从手写改革到印刷的头几期*
 
 
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fiw9rbi9otj30hs0aqwfq.jpg)
+![](//bstatic.djyde.com/assets/006tNc79gy1fiw9rbi9otj30hs0aqwfq.jpg)
 
 *校运会特刊的「发布会」*
 
-![](https://ws2.sinaimg.cn/large/006tNc79gy1fiw9ryihc9j30hs0by0up.jpg)
+![](//bstatic.djyde.com/assets/006tNc79gy1fiw9ryihc9j30hs0by0up.jpg)
 
 *校运会，「小编」们的一次合照*
 

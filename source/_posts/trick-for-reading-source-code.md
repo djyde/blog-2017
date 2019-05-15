@@ -6,9 +6,9 @@ tags:
 
 昨天和朋友聊到阅读开源代码，我分享了自己一个读代码的技巧，就是从第一个 commit 开始读。
 
-![](https://ws4.sinaimg.cn/large/0069RVTdgy1fv921gu1dtj31kw0z3aei.jpg)
+![](//bstatic.djyde.com/assets/0069RVTdgy1fv921gu1dtj31kw0z3aei.jpg)
 
-![](https://ws2.sinaimg.cn/large/0069RVTdgy1fv927o4mqtj31kw0xz11u.jpg)
+![](//bstatic.djyde.com/assets/0069RVTdgy1fv927o4mqtj31kw0xz11u.jpg)
 
 从第一个 commit 读源码的好处是：
 

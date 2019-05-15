@@ -17,7 +17,7 @@ CI 的全称是 Continuous Integration (持续集成)，是 extreme programming 
 
 和第三方的 Travis CI, CircleCI 不同，**Gitlab 本身并不提供机器**，只提供一个注册机器的接口。这些机器用于运行构建逻辑，在 Gitlab 中被称为 Runner.
 
-![runners](//ww4.sinaimg.cn/large/006tNc79gy1fet5ffxwglj31ac0y2wj8.jpg)
+![runners](//bstatic.djyde.com/assets/006tNc79gy1fet5ffxwglj31ac0y2wj8.jpg)
 
 ## Gitlab Runner 环境
 
@@ -99,7 +99,7 @@ sudo docker exec -it gitlab-runner gitlab-ci-multi-runner register
 
 程序会要求你填写相关的信息，这些信息可以从 Gitlab 项目的 `Settings -> Runners` 页面中找到：
 
-![Gitlab runner info](//ww2.sinaimg.cn/large/006tNc79gy1fetavn7r0lj319u0os78u.jpg)
+![Gitlab runner info](//bstatic.djyde.com/assets/006tNc79gy1fetavn7r0lj319u0os78u.jpg)
 
 ```bash
 Please enter the gitlab-ci coordinator URL:
@@ -126,7 +126,7 @@ Please enter the default Docker image (e.g. ruby:2.1):
 
 这时 runner 就会出现在 `runners` 页面：
 
-![](//ww2.sinaimg.cn/large/006tNc79gy1fetbnh1e12j310008qdgs.jpg)
+![](//bstatic.djyde.com/assets/006tNc79gy1fetbnh1e12j310008qdgs.jpg)
 
 ## FAQ
 
