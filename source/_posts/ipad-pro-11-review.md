@@ -3,7 +3,7 @@ title: 11 寸 iPad Pro 体验
 date: 2019-04-06 13:28:13
 tags:
 ---
-![](http://bstatic.djyde.com/DSC02308.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
+![](https://bstatic.djyde.com/DSC02308.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 这次入手 iPad Pro 完全是个意外，原本的计划是入手新款 iPad mini 更新一下我用了三年的 iPad mini 2. 后来想一想，不如用 24 期免息直接入手 iPad Pro. 
 
@@ -20,21 +20,21 @@ tags:
 
 iPad mini 2 相对于 Kindle Paperwhite 来说已经大了不少，而在 iPad Pro 11 寸阅读给我的感受是读书就像是在读报纸。这次出差在飞机上总共读完了两本书，体验完胜 Kindle. 
 
-![](http://bstatic.djyde.com/FullSizeRender.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/FullSizeRender.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
 
 即使尺寸大，但握在手上也不会觉得笨重。
 
-![](http://bstatic.djyde.com/IMG_0025.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/IMG_0025.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 ## 浏览网页、社交网络
 
 并不是说 iPad mini 2 不能做到，而是 mini 2 的性能让我没有欲望这样做。但是我很愿意在 iPad Pro 上 Google 一翻，刷刷 Twitter / 微博，收发 Email. 一切都很顺畅。
 
-![](http://bstatic.djyde.com/Snapseed%203.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/Snapseed%203.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
 
-周末出差时，我的周报都是在 iPad Pro 上完成的。我用讯飞语音完成周报的文字录入，准确率比想象中高得多。讯飞可以满足大部分的文字录入需求，当然，有些场景不方便使用语音输入。这时有个键盘是更好的选择。迫于贫穷，我没有买 Smart Keyboard, 而是买了只要 178 元的 [罗技 k380](https://u.jd.com/V08AyQ).
+周末出差时，我的周报都是在 iPad Pro 上完成的。我用讯飞语音完成周报的文字录入，准确率比想象中高得多。讯飞可以满足大部分的文字录入需求，当然，有些场景不方便使用语音输入。这时有个键盘是更好的选择。迫于贫穷，我没有买 Smart Keyboard, 而是买了只要 178 元的罗技 k380.
 
-![](http://bstatic.djyde.com/9C93C41D5DB7-1.jpeg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/9C93C41D5DB7-1.jpeg?x-oss-process=image/resize,w_2560/quality,q_80)
 
 K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一键切换。手感就是普通薄膜键盘的手感。唯一的缺点是和 iPad Pro 搭配使用的话，你要额外买一个支架架住 iPad.
 
@@ -42,13 +42,13 @@ K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一
 
 这次到深圳出差顺便逛了一下海边，用 SONY RX100 拍了不少照片。当晚到顺电买了一个 MOMAX 的 Type-C HUB. 插到 iPad Pro 上，会自动打开系统照片 App 的导入页面，可以直接把 SD 卡里的照片导出。然后用 Snapseed 就能处理图片。
 
-![](http://bstatic.djyde.com/42FE525EA268-1.jpeg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/42FE525EA268-1.jpeg?x-oss-process=image/resize,w_2560/quality,q_80)
 
 在没有 Macbook Pro 的情况下可以完成整个从照片导出到照片后期的过程，倒是令我惊喜的。
 
 这是一张用 iPad Pro 后期的照片。
 
-![](http://bstatic.djyde.com/413142799.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/413142799.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
 
 因为家里有 NAS, 64GB 倒不会不够用，照片导出和处理完，直接扔到 NAS 就完事了。
 
@@ -60,11 +60,11 @@ K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一
 
 这是在纸上写的字：
 
-![](http://bstatic.djyde.com/DSC01772.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/DSC01772.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 这是在 iPad 上写的同样的字：
 
-![](http://bstatic.djyde.com/DSC02391.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//bstatic.djyde.com/DSC02391.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 # 总结
 
