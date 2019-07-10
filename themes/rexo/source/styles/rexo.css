@@ -525,8 +525,8 @@ a:hover {
   text-decoration: underline;
 }
 
-.music-gallery {
-  text-align: center;
+.music-gallery img {
+  width: 100%;
 }
 
 .music-gallery ul {
