@@ -9,7 +9,7 @@
 <ul class='post-list non-style-list'>
   <% page.posts.filter(function (post) { return post.pin }).forEach(function(post) { %>
     <li class='post-list-item'>
-      <a href='<%= post.path %>'><%= post.title %></a>
+      <a href='/<%= post.path %>'><%= post.title %></a>
       <span class='post-list-date'>(<%- date(post.date, 'MMM, YYYY') %>)</span>
     </li>
   <% }) %>

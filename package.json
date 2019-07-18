@@ -23,6 +23,7 @@
     "hexo-server": "^0.2.0"
   },
   "devDependencies": {
-    "genlink": "^1.0.0"
+    "genlink": "^1.0.0",
+    "hexo-deployer-aliyun": "^0.4.0"
   }
 }

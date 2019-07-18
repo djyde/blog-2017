@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://lutaonan.com
-root: /
+url: /
+# root: /
 permalink: blog/:title/
 permalink_defaults:
 
@@ -69,9 +69,11 @@ theme: rexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@git.coding.net:djyde/djyde.coding.me.git
-
+  type: aliyun
+  bucket: blog-hosting
+  region: oss-cn-shenzhen
+  accessKeyId: grt1n2gw1cmli42ba38bqkwj
+  accessKeySecret: aPZ037W3Zbchnq9k+RGBtwoGKYk=
 feed:
   type: atom
   path: rss
