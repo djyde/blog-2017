@@ -69,11 +69,12 @@ theme: rexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: aliyun
-  bucket: blog-hosting
-  region: oss-cn-shenzhen
-  accessKeyId: grt1n2gw1cmli42ba38bqkwj
-  accessKeySecret: aPZ037W3Zbchnq9k+RGBtwoGKYk=
+  - type: git
+    repo: git@github.com:djyde/djyde.github.io.git
+  - type: git
+    repo: git@git.dev.tencent.com:djyde/djyde.coding.me.git
+
+
 feed:
   type: atom
   path: rss
