@@ -6,6 +6,7 @@ hide: true
 
 你可以通过以下几种赞助渠道表达对我的支持，支持我不断地更新下去：
 
+- [加入我的知识星球](/blog/my-zsxq)
 - 订阅我的[付费专栏](https://xiaozhuanlan.com/djyde) （付费专栏完全同步我的博客内容，但不排除之后会有独家内容）
 - [成为我的 Patron](https://patreon.com/djyde)
 
