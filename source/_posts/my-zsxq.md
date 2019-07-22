@@ -15,5 +15,4 @@ pin: true
 - 分享自己看到有价值的项目或文章
 - 偶尔一些主观的短评
 
-![](https://gbstatic.djyde.com/image_554541844184_3.JPG?x-oss-process=style/80
-)
+<img src="https://gbstatic.djyde.com/image_554541844184_3.JPG?x-oss-process=style/80" width="30%" />
