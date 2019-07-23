@@ -51,9 +51,9 @@ contacts:
   - className: email
     href: mailto:randypriv@gmail.com
     title: randypriv at gmail
-  - className: instagram
-    href: https://www.instagram.com/randy_fam/
-    title: 'randy_fam'
+  # - className: instagram
+  #   href: https://www.instagram.com/randy_fam/
+  #   title: 'randy_fam'
   - className: telegram
     href: https://t.me/djyde
     title: '@djyde'
