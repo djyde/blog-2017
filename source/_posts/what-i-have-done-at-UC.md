@@ -99,7 +99,7 @@ Cans 自带了一些业务常用的 addon:
 
 ![](https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_44DD0DC7FA9F-1.jpeg?x-oss-process=style/80)
 
-而在业务层，尽可能将可复用的业务组件封装出去，让更多业务可以使用。如 [antd-data-table]([Commits · NewbeeFE/antd-data-table · GitHub](https://github.com/NewbeeFE/antd-data-table) 这个业务组件，就是从 UC News 运营后台独立出来的。
+而在业务层，尽可能将可复用的业务组件封装出去，让更多业务可以使用。如 [antd-data-table](https://github.com/NewbeeFE/antd-data-table) 这个业务组件，就是从 UC News 运营后台独立出来的。
 
 ![](https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_3BCAB3A24856-1.jpeg?x-oss-process=style/80)
 
