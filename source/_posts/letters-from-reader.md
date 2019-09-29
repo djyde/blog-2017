@@ -2,6 +2,7 @@
 title: 回顾了一些读者来信
 date: 2019-09-21 16:16:11
 tags:
+pin: true
 ---
 
 从 2014 年开始写博客以来，因为不设评论区，我收到不少读者的 Email 来信。透过 Email, 来信的人比评论区直接评论要更严谨一些。来信中的大部分是请教问题，其它则是一些感谢的话。
@@ -10,13 +11,13 @@ tags:
 
 ![](//gbstatic.djyde.com/blog/Snapseed%208.jpg?x-oss-process=style/80)
 
+![](//gbstatic.djyde.com/blog/Desktop.png?x-oss-process=style/80)
+
 其中我发现一封 2015 年的已经被我淡忘的邮件：
 
-![](//gbstatic.djyde.com/blog/DSC02677.JPG?x-oss-process=style/80)
+![](//gbstatic.djyde.com/blog/Desktop%20HD.png?x-oss-process=style/80)
 
-![](//gbstatic.djyde.com/blog/DSC02676.JPG?x-oss-process=style/80)
-
-这是一位在国外当老师的妈妈，特意来信想为她的儿子寻问关于编程的问题。当时我回信尽可能地写了很多相关浅薄的意见和经验分享，后来就再没有通信。这位母亲让我感动。
+这是一位在国外当老师的妈妈，特意来信想为她的儿子寻问关于编程的问题。当时我回信尽可能地写了很多浅薄的意见和经验分享，后来就再没有通信。这位母亲让我感动。
 
 时隔几年再看来往的信件，无论是提到的这位母亲，还是其它特意发来感谢的读者，他们让我收获到的是，我写的文字确实帮助了一些人；五年来我坚持写独立博客是有意义的；这些来信让我意识到我活在世上还是有一点微不足道的贡献。所以我最开心的是看到来信里面提到的，我对读者的影响是什么。
 
