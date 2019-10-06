@@ -1,8 +1,11 @@
 ---
 title: 我在 UC 做的前端工程化探索
 date: 2019-09-27 21:38:06
+layout: post
 cover: https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_185.JPG?x-oss-process=style/cover
 pin: true
+tags: 
+	- tech
 ---
 
 我在 2016 年初加入 UC 的国际业务部，负责为 UC News 搭建运营后台。随着前端团队人数越来越多，我开始推动团队的前端技术栈统一以及前端工程化，开发了一个叫 Cans 用于快速搭建中后台前端应用的框架。直到了 2019 年我离开 UC, Cans 仍然服务于 UC 的国际业务。

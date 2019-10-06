@@ -1,5 +1,6 @@
 ---
 title: 我学五笔的经历
+layout: post
 date: 2016-03-14
 tags:
   - life

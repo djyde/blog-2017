@@ -1,5 +1,7 @@
 ---
 title: 你根本用不着退学
+layout: post
+
 date: 2016-11-06
 tags:
   - depth

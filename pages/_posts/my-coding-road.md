@@ -1,6 +1,7 @@
 ---
 title: 我的编程经历
 date: 2017-05-12 16:11:40
+layout: post
 tags:
   - exp
 pin: true

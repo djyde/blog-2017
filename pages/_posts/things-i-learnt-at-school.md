@@ -1,5 +1,6 @@
 ---
 title: 我在学校学到的东西
+layout: post
 date: 2018-10-04 20:42:17
 pin: true
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 我看牙医的经历
 date: 2016-11-26
+layout: post
 tags:
   - exp
 ---

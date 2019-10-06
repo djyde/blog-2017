@@ -1,5 +1,6 @@
 ---
 title: 静态类型在 JavaScript 中是一种负担吗？
+layout: post
 date: 2016-09-29
 tags:
   - typescript

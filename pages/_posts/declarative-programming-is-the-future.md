@@ -1,6 +1,7 @@
 ---
 title: 未来属于声明式编程
 date: 2019-07-18 20:11:30
+layout: post
 tags:
 pin: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Serlina: 渐进式的 React 服务器渲染框架"
 date: 2018-08-13 17:44:09
+layout: post
 ---
 
 > 副标题: 《可能是最适合 Egg 的 React Serverside-rendering 方案》

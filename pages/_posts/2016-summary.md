@@ -2,6 +2,7 @@
 title: 2016 年终总结
 date: 2016-12-28
 tags: summary
+layout: post
 ---
 ## 博客篇
 

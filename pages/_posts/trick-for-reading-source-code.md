@@ -1,5 +1,6 @@
 ---
 title: 一个阅读源代码的技巧
+layout: post
 date: 2018-09-14 14:14:07
 tags:
 ---

@@ -1,6 +1,7 @@
 ---
 title: 中山纪念中学游记
 date: 2016-06-09
+layout: post
 tags:
   - travel
 ---

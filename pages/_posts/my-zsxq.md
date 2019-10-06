@@ -1,5 +1,6 @@
 ---
 title: 我开通了知识星球
+layout: post
 date: 2019-07-22 11:08:55
 tags:
 pin: true

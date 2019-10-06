@@ -1,5 +1,6 @@
 ---
 title: 电脑键盘上的流行钢琴伴奏
+layout: post
 date: 2017-02-19 14:53:38
 tags:
   - lifeshacker

@@ -1,5 +1,6 @@
 ---
 title: 井底之蛙的一片天空
+layout: post
 date: 2019-06-17 19:01:55
 pin: true
 ---

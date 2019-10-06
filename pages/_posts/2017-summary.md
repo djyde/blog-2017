@@ -1,5 +1,6 @@
 ---
 title: 2017 年终总结
+layout: post
 date: 2018-01-03 18:47:44
 tags:
 ---

@@ -1,5 +1,6 @@
 ---
 title: 做技术要自信
+layout: post
 date: 2017-03-14 21:10:45
 pin: true
 ---

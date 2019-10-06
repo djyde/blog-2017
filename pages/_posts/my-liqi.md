@@ -1,6 +1,7 @@
 ---
 title: 我的利器
 date: 2016-09-09
+layout: post
 tags:
   - lifestyle
 ---

@@ -1,5 +1,6 @@
 ---
 title: 写给即将学习编程的大学新生
+layout: post
 date: 2015-07-01
 tags:
   - depth

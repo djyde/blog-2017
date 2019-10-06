@@ -1,6 +1,7 @@
 ---
 title: 人生是不断取舍的过程
 date: 2019-04-03 18:33:05
+layout: post
 tags:
 pin: true
 ---

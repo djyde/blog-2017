@@ -1,6 +1,7 @@
 ---
 title: 本博客的赞助渠道
 date: 2019-01-10 10:15:39
+layout: post
 hide: true
 ---
 

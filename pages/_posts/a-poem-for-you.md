@@ -1,6 +1,7 @@
 ---
 title: 为你写的一首诗
 date: 2019-06-12 21:03:25
+layout: post
 tags:
 ---
 

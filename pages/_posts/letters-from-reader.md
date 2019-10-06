@@ -1,5 +1,6 @@
 ---
 title: 回顾了一些读者来信
+layout: post
 date: 2019-09-21 16:16:11
 cover: http://gbstatic.djyde.com/blog/Snapseed%208.jpg?x-oss-process=style/cover
 ---

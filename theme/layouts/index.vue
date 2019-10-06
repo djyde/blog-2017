@@ -10,26 +10,22 @@
     </header>
     <div class="container">
       <div>
-        <div class="bio">
-          My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.
-        </div>
+        <div
+          class="bio"
+        >My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</div>
         <section class="nav">
-          <div class="active">
-            <a href="/">Posts</a>
-          </div>
-          <div>
-            <a href="/">Readings</a>
-          </div>
-          <div>
-            <a href="/">Music</a>
-          </div>
+          <template v-for="menu in $themeConfig.menus">
+            <div>
+              <a :href="menu.path">{{ menu.title }}</a>
+            </div>
+          </template>
         </section>
       </div>
 
       <div class="posts-list">
         <template v-for="post in page.posts">
           <div class="post-item">
-            <div class="date">{{ post.date }}</div>
+            <div class="date">{{ dayjs(post.date).format('MMMM DD, YYYY') }}</div>
             <div class="cover" :style="{ backgroundImage: `url('${post.cover}')`}"></div>
             <h2>
               <a :href="post.permalink">{{ post.title }}</a>
@@ -47,6 +43,12 @@
 export default {
   props: ["page"],
   injectAllPosts: true,
+  methods: {
+    dayjs: require("dayjs")
+  },
+  head: {
+    title: `Randy's Blog`
+  },
   mounted() {
     console.log(this.page);
   }
@@ -76,14 +78,14 @@ export default {
   background-position-x: 0rem;
   background-position-y: -15rem;
   background-repeat: no-repeat;
-  background-image: url("https://gbstatic.djyde.com/assets/Snapseed%203.jpg?x-oss-process=image/auto-orient,1/quality,q_80/bright,-10/resize,w_2560/contrast,-30");
+  background-image: url("https://gbstatic.djyde.com/assets/Snapseed%203.jpg?x-oss-process=image/auto-orient,1/quality,q_80/bright,-10/resize,w_2560/contrast,-30/interlace,1");
 }
 
 .slogan {
   padding-left: 4rem;
   position: absolute;
-  bottom: 8rem;
-text-shadow: 3px 2px 0px #7A7A7A;
+  top: 8rem;
+  text-shadow: 3px 2px 0px #7a7a7a;
   .slogan-title {
     font-weight: bold;
     color: hsl(0, 0%, 100%);
@@ -103,7 +105,7 @@ text-shadow: 3px 2px 0px #7A7A7A;
   div {
     lost-column: 1/6;
     border-bottom: 1rem solid hsl(0, 0%, 50%);
-    transition: all .2s;
+    transition: all 0.2s;
 
     &.active {
       border-bottom: 1rem solid hsl(0, 0%, 10%);

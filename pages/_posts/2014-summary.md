@@ -1,5 +1,6 @@
 ---
 title: 2014 年终总结
+layout: post
 date: 2014-12-31
 tags: summary
 ---

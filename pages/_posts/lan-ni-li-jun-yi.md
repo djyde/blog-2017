@@ -1,6 +1,7 @@
 ---
 title: 《烂泥》李峻一
 date: 2016-6-16
+layout: post
 tags:
   - music
 ---

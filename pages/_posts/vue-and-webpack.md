@@ -1,5 +1,6 @@
 ---
 title: Vue.js 和 Webpack
+layout: post
 date: 2015-08-29
 tags:
   - javascript

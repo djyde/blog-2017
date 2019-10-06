@@ -1,6 +1,7 @@
 ---
 title: 21 岁我想说的
 date: 2016-03-25
+layout: post
 tags:
   - summary
 ---

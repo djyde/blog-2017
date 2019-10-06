@@ -1,5 +1,6 @@
 ---
 title: 博客近期的变化
+layout: post
 date: 2019-06-11 23:16:29
 tags:
 ---

@@ -15,12 +15,15 @@
     "last 2 versions"
   ],
   "dependencies": {
+    "dayjs": "^1.8.16",
     "lost": "^8.3.1",
     "normalize.css": "^8.0.1",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.1.2",
     "postcss-preset-env": "^6.7.0",
+    "prismjs": "^1.17.1",
     "saber": "^0.10.3",
+    "saber-plugin-prismjs": "^0.2.3",
     "saber-plugin-query-posts": "^0.4.4"
   },
   "devDependencies": {
