@@ -1,0 +1,4 @@
+---
+layout: index
+injectAllPosts: true
+---
