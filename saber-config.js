@@ -1,7 +1,10 @@
 module.exports = {
   plugins: [
     {
-      resolve: 'saber-plugin-query-posts'
+      resolve: 'saber-plugin-query-posts',
+      options: {
+        perPage: 100
+      }
     },
     {
       resolve: 'saber-plugin-prismjs'

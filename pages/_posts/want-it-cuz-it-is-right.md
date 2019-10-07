@@ -3,6 +3,10 @@ title: 我想得到它，因为它是好的
 date: 2019-06-13 19:06:31
 layout: post
 pin: true
+cover: https://gbstatic.djyde.com/cover/lucas-franco-NMlad_sUGTo-unsplash.jpg?x-oss-process=style/cover
+
+categories: 
+  - Thinking
 tags:
   - thinking
 ---

@@ -1,8 +1,10 @@
 ---
 title: 你根本用不着退学
 layout: post
-
 date: 2016-11-06
+cover: https://gbstatic.djyde.com/cover/ad-studio-bZ_RkRKE0Po-unsplash.jpg?x-oss-process=style/cover
+categories:
+  - Thinking
 tags:
   - depth
   - exp

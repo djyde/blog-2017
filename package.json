@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "dayjs": "^1.8.16",
+    "lodash": "^4.17.15",
     "lost": "^8.3.1",
     "normalize.css": "^8.0.1",
     "postcss-import": "^12.0.1",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.6.4",
-    "genlink": "^1.0.0"
+    "genlink": "^1.0.0",
+    "postcss-custom-media": "^7.0.8"
   }
 }

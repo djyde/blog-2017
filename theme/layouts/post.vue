@@ -8,6 +8,7 @@
         <a :href="menu.path">{{ menu.title }}</a>
       </div>
     </nav>
+    <div class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
     <div class="post">
       <h1 class="title">{{ page.title }}</h1>
       <div class="date">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
@@ -71,6 +72,10 @@ export default {
   font-size: 0.5rem;
 }
 
+@custom-media --ipad (480px < width <= 1024px);
+@custom-media --iphone (320px <= width < 480px);
+@custom-media --pc (width > 1024px);
+
 nav {
   background-color: hsl(0, 0%, 0%);
 
@@ -116,12 +121,22 @@ nav {
 
 .bmc {
   max-width: 30% !important;
+  @media (--iphone) {
+    max-width: 100% !important;
+  }
+}
+
+.cover {
+  padding-bottom: 40%;
+  @media (--iphone) {
+    padding-bottom: 75%;
+  }
+  background-size: cover;
 }
 
 .post {
-  margin: 0 auto;
-  width: 960px;
   margin-top: 4rem;
+
   h1,
   h2,
   h3,
@@ -140,24 +155,48 @@ nav {
   }
 
   .title {
-    margin: 0 auto;
-    width: 960px;
     margin-bottom: 1rem;
   }
+
   .date {
-    margin: 0 auto;
-    width: 960px;
     color: hsl(0, 0%, 50%);
   }
+
+  @media (--pc) {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  @media (--iphone) {
+    padding-left: 5%;
+    padding-right: 5%;
+    img {
+      width: 100%;
+    }
+  }
+
+  @media (--ipad) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .content {
     img {
       max-width: 100%;
       display: block;
       margin: 0 auto;
+
+      @media (--ipad) {
+        width: 100%;
+      }
+
+      @media (--iphone) {
+        width: 100%;
+      }
     }
 
     p {
-      line-height: 2rem;
+      line-height: 1.8rem;
     }
 
     a {
