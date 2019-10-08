@@ -1,14 +1,7 @@
 <template>
   <div>
-    <nav>
-      <div class="logo">
-        <a href="/">Randy's Blog</a>
-      </div>
-      <div v-for="menu in $themeConfig.menus" class="nav-item">
-        <a :href="menu.path">{{ menu.title }}</a>
-      </div>
-    </nav>
-    <div v-if="page.cover" class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
+    <Nav />
+    <div class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
     <div class="post">
       <h1 class="title">{{ page.title }}</h1>
       <div class="date">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
@@ -45,8 +38,13 @@
 </template>
 
 <script>
+import Nav from './components/nav'
+
 export default {
   props: ["page"],
+  components: {
+    Nav
+  },
   methods: {
     dayjs: require("dayjs")
   },
@@ -67,7 +65,6 @@ export default {
 
 <style scoped>
 @import "./styles/prism-dracula.css";
-
 .saber-highlight code {
   font-size: 0.5rem;
 }
@@ -75,38 +72,6 @@ export default {
 @custom-media --ipad (480px < width <= 1024px);
 @custom-media --iphone (320px <= width < 480px);
 @custom-media --pc (width > 1024px);
-
-nav {
-  background-color: hsl(0, 0%, 0%);
-
-  .logo {
-    padding-left: 1rem;
-    margin-right: 2rem;
-    display: inline-block;
-    a {
-      font-weight: bold;
-      color: hsl(0, 0%, 100%);
-    }
-  }
-
-  .nav-item {
-    display: inline-block;
-
-    a {
-      display: block;
-      color: hsl(0, 0%, 100%);
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-    }
-
-    a:hover {
-      color: hsl(0, 0%, 0%);
-      background-color: hsl(0, 0%, 100%);
-    }
-  }
-}
 
 .post-footer {
   padding-top: 2rem;
