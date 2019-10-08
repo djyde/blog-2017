@@ -13,31 +13,31 @@ tags: summary
 
 旧博客统计：
 
-![旧博客统计](/images/old_blog.png)
+![旧博客统计](https://gbstatic.djyde.com/blog/old_blog.png)
 
 新博客统计：
 
-![新博客统计](/images/new_blog.png)
+![新博客统计](https://gbstatic.djyde.com/blog/new_blog.png)
 
 总计： PV **49,406**，UV **15,800**
 
 #### 访问设备
 
-![访问设备](/images/newblog_devices.png)
+![访问设备](https://gbstatic.djyde.com/blog/newblog_devices.png)
 
 iPhone 用户仍然排第一，第二是小米。
 
 #### 来源浏览器
 
-![](/images/newblog_browser.png)
+![](https://gbstatic.djyde.com/blog/newblog_browser.png)
 
 #### 文章排行
 
-![旧博客排行](/images/oldblog_post_trend.png)
+![旧博客排行](https://gbstatic.djyde.com/blog/oldblog_post_trend.png)
 
 上半年一个 Vue 和 Webpack 系列访问量比较大。下半年给自己的博客定位不是单纯的技术博客，访问量比较大的是关于退学的两篇文章。
 
-![新博客排行](/images/newblog_post_trend.png)
+![新博客排行](https://gbstatic.djyde.com/blog/newblog_post_trend.png)
 
 坚持做独立博客很难，坚持写博客更难。我没有开公众号，因为开公众号会让我感到有压力，更会让我「为了推送而写文章」。也是因为赞同[陈皓的观点](http://coolshell.cn/articles/17391.html)。
 
@@ -53,7 +53,7 @@ iPhone 用户仍然排第一，第二是小米。
 
 ## 工作篇
 
-![Gitlab Summary](/images/gitlab.png)
+![Gitlab Summary](https://gbstatic.djyde.com/blog/gitlab.png)
 
 从 3 月份入职，完成了一个项目的重构，帮助了一些还有些迷茫的朋友，用自己的热情感染了团队的技术氛围，是在这一年工作上让我自己感到满足的事情。
 

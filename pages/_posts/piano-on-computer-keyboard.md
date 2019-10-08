@@ -19,7 +19,7 @@ tags:
 
 ## How it likes
 
-![](/images/pciano-screenshot.png)
+![](https://gbstatic.djyde.com/blog/pciano-screenshot.png)
 
 在浏览器上面，我写了一个钢琴键盘排列，来展示当前所按到的音。
 
@@ -35,7 +35,7 @@ tags:
 
 下图表示了初期版本的键位映射关系：
 
-![](/images/IMG_7700.JPG)
+![](https://gbstatic.djyde.com/blog/IMG_7700.jpg)
 
 - CDEFGAB 分别是以 C major scale 为基础的和弦。比如按下 C 就会弹奏 `C`, 按 A 则会弹奏 `Am`.
 - Y P H J 分别是分解和弦的根音、五音、高八度一音和高八度三音。程序会根据当前弹奏的和弦自动分解并映射到这些按键上
@@ -43,7 +43,7 @@ tags:
 
 从技术上来说，我把 Piano Keyboard 转化成了程序里的数据结构，通过计算得出相应和弦的转位。
 
-![](/images/pciano-code-snippet.png)
+![](https://gbstatic.djyde.com/blog/pciano-code-snippet.png)
 
 ## 局限性
 

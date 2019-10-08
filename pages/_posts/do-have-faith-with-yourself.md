@@ -4,7 +4,7 @@ layout: post
 categories:
   - Thinking
 date: 2017-03-14 21:10:45
-cover: https://gbstatic.djyde.com/cover/kobu-agency-67L18R4tW_w-unsplash.jpg?x-oss-process=style/cover
+# cover https://gbstatic.djyde.com/cover/kobu-agency-67L18R4tW_w-unsplash.jpg?x-oss-process=style/cover
 pin: true
 ---
 

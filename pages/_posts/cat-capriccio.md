@@ -4,10 +4,8 @@ date: 2017-08-20 22:51:55
 layout: post
 categories:
   - Life
-tags:
+cover: http://gbstatic.djyde.com/assets/006tNc79gy1fiql3pxyssj31kw11x0w8.jpg?x-oss-process=style/cover
 ---
-
-![](//gbstatic.djyde.com/assets/006tNc79gy1fiql3pxyssj31kw11x0w8.jpg)
 
 我是个很怕负责任并且不感性的人，养一只猫对我来说，是一种很大的责任。
 

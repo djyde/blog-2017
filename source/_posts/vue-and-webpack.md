@@ -239,7 +239,7 @@ webpack 神奇的地方在于，任何的文件都能被 `require()`。依靠各
 
 ```scss
 #container{
-  background-image: url(require('./images/background.png'));
+  background-image: url(require('.https://gbstatic.djyde.com/blog/background.png'));
   p{
     color: #69C;
   }

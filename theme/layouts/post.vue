@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <div class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
+    <div v-if="page.cover" class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
     <div class="post">
       <h1 class="title">{{ page.title }}</h1>
       <div class="date">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
@@ -24,17 +24,6 @@
         </p>
       </div>
     </div>
-
-    <div class="footer">
-      <p>
-        <img width="256px" src="//s2.ax1x.com/2019/04/04/A2V9YT.png" />
-      </p>
-      <p>
-        2014-2019
-        <a href="/">Randy's Blog</a>
-      </p>
-    </div>
-  </div>
 </template>
 
 <script>

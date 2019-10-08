@@ -1,6 +1,16 @@
 <template>
   <div>
     <slot />
+
+    <div id="footer">
+      <p>
+        <img width="256px" src="//s2.ax1x.com/2019/04/04/A2V9YT.png" />
+      </p>
+      <p>
+        2014-2019
+        <a href="/">Randy's Blog</a>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -15,27 +25,26 @@ export default {
     // ],
     link: [
       {
-        rel: 'stylesheet',
-        href:
-          '//ppp.djyde.com/css?family=Noto+Serif+SC'
+        rel: "stylesheet",
+        href: "//ppp.djyde.com/css?family=Noto+Serif+SC"
       }
     ]
   }
-}
+};
 </script>
 
 <style>
 @import "normalize.css";
 
 body {
-  font-family: 'Noto Serif SC',Lusitana, serif;
+  font-family: "Noto Serif SC", Lusitana, serif;
 }
 
 blockquote {
   padding: 0;
   margin: 0;
   padding-left: 1.5rem;
-  border-left: .5rem solid hsl(0, 0%, 80%);
+  border-left: 0.5rem solid hsl(0, 0%, 80%);
 }
 
 a {
@@ -49,13 +58,26 @@ a {
 
 hr {
   border: 0;
-  border-bottom: 1px solid #A7ADBA;
+  border-bottom: 1px solid #a7adba;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
 li {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+#footer {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #fafafa;
+  text-align: center;
+  color: #C0C5CE;
+}
+
+#footer a {
+  color: #C0C5CE;
 }
 
 </style>

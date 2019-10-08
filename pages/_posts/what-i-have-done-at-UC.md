@@ -4,7 +4,7 @@ date: 2019-09-27 21:38:06
 layout: post
 categories:
   - Coding
-cover: https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_185.JPG?x-oss-process=style/cover
+# cover https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_185.jpg?x-oss-process=style/cover
 pin: true
 tags: 
 	- tech
@@ -29,9 +29,9 @@ tags:
 - 页面绑定对应的路由
 - 在左侧菜单栏添加菜单项并指向对应的路由
 
-![](https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_185.JPG?x-oss-process=style/80)
+![](https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_185.jpg?x-oss-process=style/80)
 
-![](https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_186.JPG?x-oss-process=style/80)
+![](https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_186.jpg?x-oss-process=style/80)
 
 我把这两点变成配置项，可以直接在项目里的 routes 文件配置。这样新页面接入只需配置菜单项的标题和路由，以及对应的页面组件即可。
 

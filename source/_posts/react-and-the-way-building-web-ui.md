@@ -46,7 +46,7 @@ setInterval(() => {
 
 这样的实现是能达到目的的，但是问题在于，每次 `innerHTML` 时，整个 `#app` 的 DOM 树会被重新渲染。
 
-![](/images/plain-render-clock.gif)
+![](https://gbstatic.djyde.com/blog/plain-render-clock.gif)
 
 我们都知道，DOM 更新的花费是昂贵的。整个 DOM 树，实际上只是一个 `span` 在不断变化，所以我们需要 DOM diff 算法来得知到底哪一个 DOM 节点才需要被更新，从而节省开销：
 
@@ -67,7 +67,7 @@ setInterval(() => {
 
 在 React 里，把 props 传入，返回一个类似 HTML 的结构，然后 render 到指定的 DOM 节点上。这里 React 会算出哪个节点应该被更新：
 
-![](/images/react-render-clock.gif)
+![](https://gbstatic.djyde.com/blog/react-render-clock.gif)
 
 我们这样手动去 setInterval 然后 render 未免有点傻，我们可以更改 state (也就是通常用到的 `setState`) 自动地让 React 随着 state 的改变而重新 render. 这里的 time 就是一个 state. 这叫做 Reactive.
 
@@ -100,13 +100,13 @@ Pure Function 的好处是利于维护和测试。要测试一个 Pure Function,
 
 改变 state 是 side effect, 我们应该把它从 View 层中分离出去。我多次提到，**View 层真正要做的，仅仅是根据 state 返回对应的 View**. state 的变化逻辑，应该在给 state manager 库去做，例如 Redux, Mobx. 下面我用 Mobx 作为例子：
 
-![](/images/mobx-ticker.gif)
+![](https://gbstatic.djyde.com/blog/mobx-ticker.gif)
 
 *https://jsbin.com/fumerup/edit?js,output*
 
 如果没有接触过 Mobx 不用慌张，只需要知道，Mobx 的 Observable 变化时，被 observer 包装的 React 组件会重新渲染。使用 state manager, 明显地分离了 View 和 side-effect:
 
-![](/images/state-effect-view.png)
+![](https://gbstatic.djyde.com/blog/state-effect-view.png)
 
 测试这样的程序，首先为 side effect 的逻辑做测试，再为 View 做测试。View 的测试在这里就十分简单了，给他传一个 store 实例，借助 [enzyme](https://github.com/airbnb/enzyme) 之类的 testing utilities 预言不同的 action 得到的返回 View.
 

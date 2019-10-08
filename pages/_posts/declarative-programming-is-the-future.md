@@ -5,7 +5,7 @@ layout: post
 categories:
   - Coding
 tags:
-cover: https://gbstatic.djyde.com/F5AF0D75-30A2-46DD-B66F-9FDEFFC10B27.png?x-oss-process=style/80
+# cover https://gbstatic.djyde.com/F5AF0D75-30A2-46DD-B66F-9FDEFFC10B27.png?x-oss-process=style/80
 pin: true
 ---
 

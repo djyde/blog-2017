@@ -15,26 +15,37 @@
         >My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</div>
       </div>
 
-      <div v-for="(val, key) in postsByGroup">
-        <span class="category-name">{{ key }}</span>
-        <div class="posts-list">
-          <div class="post-item" v-for="post in val">
-            <a :href="post.permalink">
-              <div class="cover" :style="{ backgroundImage: `url('${post.cover}')`}"></div>
-              <h2>{{ post.title }}</h2>
+      <div v-masonry item-selector=".posts" class="group">
+        <div class="posts" v-for="(val, key) in postsByGroup">
+          <span class="category-name">{{ key }}</span>
+          <div class="posts-list">
+            <div class="post-item" v-for="post in val">
+              <div
+                v-if="post.cover"
+                class="cover"
+                :style="{ backgroundImage:  `url('${post.cover}')` }"
+              ></div>
+              <h2>
+                <a :href="post.permalink">{{ post.title }}</a>
+              </h2>
               <div class="date">{{ dayjs(post.date).format('MMMM DD, YYYY') }}</div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- <footer>Randy's Blog</footer> -->
   </div>
 </template>
 
 <script>
+import Vue from "vue";
 import _ from "lodash";
+let VueMasonryPlugin;
+
+if (process.browser) {
+  VueMasonryPlugin = require("vue-masonry").VueMasonryPlugin;
+  Vue.use(VueMasonryPlugin);
+}
 
 export default {
   props: ["page"],
@@ -142,7 +153,7 @@ export default {
     }
 
     @media (--iphone) {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
 
@@ -155,11 +166,12 @@ export default {
     }
 
     @media (--iphone) {
+      font-size: 1.5rem;
     }
   }
 }
 
-@lost flexbox flex;
+/* @lost flexbox flex; */
 
 .nav {
   lost-utility: cleafix;
@@ -186,26 +198,48 @@ export default {
 }
 
 .category-name {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   font-weight: bold;
-  border-bottom: 1rem solid hsl(0, 0%, 10%);
+  background-color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 95%);
+  padding: 0.5rem;
+
+  /* border-bottom: .25rem solid hsl(0, 0%, 10%); */
+  /* padding-bottom: 1rem; */
   display: inline-block;
   margin-bottom: 1rem;
 }
 
-.posts-list {
-  lost-utility: cleafix;
-  lost-flex-container: row;
+@media (--pc) {
+  .group {
+    lost-masonry-wrap: no-flex;
 
+    .posts {
+      lost-masonry-column: 1/3;
+    }
+  }
+}
+
+@media (--ipad) {
+  .group {
+    lost-masonry-wrap: no-flex;
+
+    .posts {
+      lost-masonry-column: 1/3;
+    }
+  }
+}
+
+
+.posts-list {
   @media (--pc) {
     .post-item {
-      lost-column: 1/3;
     }
   }
 
   @media (--ipad) {
     .post-item {
-      lost-column: 1/3;
+      /* lost-column: 1/4; */
     }
   }
 
@@ -234,7 +268,7 @@ export default {
     }
 
     .date {
-      color: hsl(0, 0%, 50%);
+      color: hsl(0, 23%, 16%);
       font-weight: lighter;
       font-size: 1rem;
       margin-top: 0.5rem;

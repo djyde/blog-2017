@@ -4,6 +4,7 @@ layout: post
 date: 2017-07-11 11:11:47
 categories:
   - Reviews
+cover: http://cdn.sspai.com/2017/07/11/db02e0732a1a85cec28c109c44dafcf6.jpg
 tags:
   - evaluation
   - digitle

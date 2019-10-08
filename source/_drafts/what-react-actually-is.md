@@ -54,7 +54,7 @@ We set an interval to pass a new date string to Clock and `render()` the UI ever
 
 Everything done right. But what is the problem if we write our UI in this way?
 
-![](/images/plain-render-clock.gif)
+![](https://gbstatic.djyde.com/blog/plain-render-clock.gif)
 
 The dark side of `innerHTML` is it touches the whole DOM tree. **When you touch the DOM in any way, you set a dirty bit on the whole tree that tells the browser it needs to figure out where everything goes again**(https://news.ycombinator.com/item?id=9155564). In a word, DOM changes cost a lot.
 
@@ -78,7 +78,7 @@ setInterval(render, 1000)
 
 `ReactDOM.render` knows which node should be rerender.
 
-![](/images/react-render-clock.gif)
+![](https://gbstatic.djyde.com/blog/react-render-clock.gif)
 
 This is the basic part of React. Let's take a deep dive into it.
 

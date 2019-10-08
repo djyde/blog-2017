@@ -1,7 +1,7 @@
 ---
 title: 爱情是愿意为你放弃寻新鲜
 date: 2019-09-16 20:33:55
-cover: https://gbstatic.djyde.com/cover/AAAABT4QF9hCG8i7wl7n9jxl95Zzz76F74AC0qRHECq5tVPy9EnjydEPgXZh6P5t8hppG5wd5_T51MjzuIhqVm4_eyCRVxdGNRw3bw.jpg?x-oss-process=style/cover
+# cover https://gbstatic.djyde.com/cover/AAAABT4QF9hCG8i7wl7n9jxl95Zzz76F74AC0qRHECq5tVPy9EnjydEPgXZh6P5t8hppG5wd5_T51MjzuIhqVm4_eyCRVxdGNRw3bw.jpg?x-oss-process=style/cover
 tags:
 ---
 
