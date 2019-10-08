@@ -2,6 +2,9 @@
 title: 我在学校学到的东西
 layout: post
 date: 2018-10-04 20:42:17
+categories:
+  - Thinking
+cover: https://gbstatic.djyde.com/cover/neonbrand-zFSo6bnZJTw-unsplash.jpg?x-oss-process=style/cover
 pin: true
 tags:
   - depth

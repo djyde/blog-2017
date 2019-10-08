@@ -2,6 +2,8 @@
 title: 11 寸 iPad Pro 体验
 layout: post
 date: 2019-04-06 13:28:13
+categories:
+  - Reviews
 tags:
 ---
 ![](https://gbstatic.djyde.com/DSC02308.JPG?x-oss-process=image/resize,w_2560/quality,q_80)

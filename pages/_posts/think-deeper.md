@@ -1,6 +1,8 @@
 ---
 title: 多研究些问题，少谈些框架
 layout: post
+categories:
+  - Thinking
 date: 2018-07-16 11:47:35
 tags:
   - tweet

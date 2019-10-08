@@ -2,6 +2,8 @@
 title: 我常用的 macOS 应用
 layout: post
 date: 2016-08-06
+categories:
+  - Life
 tags:
   - lifestyle
 ---

@@ -2,6 +2,8 @@
 title: 养猫随想
 date: 2017-08-20 22:51:55
 layout: post
+categories:
+  - Life
 tags:
 ---
 

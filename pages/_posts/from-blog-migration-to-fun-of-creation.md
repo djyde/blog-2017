@@ -1,6 +1,8 @@
 ---
 title: 从博客搬迁到创造的乐趣
 date: 2016-6-12
+categories:
+  - Thinking
 layout: post
 tags:
 ---

@@ -2,6 +2,8 @@
 title: 从 React 谈 Web UI 开发
 date: 2017-01-01 02:19:36
 layout: post
+categories:
+  - Coding
 tags:
   - frontend
   - react

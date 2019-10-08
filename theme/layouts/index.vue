@@ -13,24 +13,17 @@
         <div
           class="bio"
         >My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</div>
-        <!-- <section class="nav">
-          <template v-for="menu in $themeConfig.menus">
-            <div>
-              <a :href="menu.path">{{ menu.title }}</a>
-            </div>
-          </template>
-        </section>-->
       </div>
 
       <div v-for="(val, key) in postsByGroup">
         <span class="category-name">{{ key }}</span>
         <div class="posts-list">
           <div class="post-item" v-for="post in val">
-            <div class="date">{{ dayjs(post.date).format('MMMM DD, YYYY') }}</div>
-            <div class="cover" :style="{ backgroundImage: `url('${post.cover}')`}"></div>
-            <h2>
-              <a :href="post.permalink">{{ post.title }}</a>
-            </h2>
+            <a :href="post.permalink">
+              <div class="cover" :style="{ backgroundImage: `url('${post.cover}')`}"></div>
+              <h2>{{ post.title }}</h2>
+              <div class="date">{{ dayjs(post.date).format('MMMM DD, YYYY') }}</div>
+            </a>
           </div>
         </div>
       </div>
@@ -49,29 +42,37 @@ export default {
   methods: {
     dayjs: require("dayjs")
   },
+  computed: {
+    postsByGroup() {
+      const { categories } = this.$themeConfig;
+
+      const posts = [...this.page.posts];
+      // posts = _.sortBy(posts)
+      const newest = posts.splice(0, 3);
+      const postsByGroup = _(posts)
+        .groupBy(p => (p.categories ? p.categories[0] : "Others"))
+        .value();
+
+      postsByGroup["Newest"] = newest;
+
+      const sorted = {};
+
+      categories.forEach(c => {
+        sorted[c.name] = postsByGroup[c.name];
+      });
+
+      return sorted;
+    }
+  },
   data() {
-    const categories = ['Thinking', 'Others']
-
-    const postsByGroup = _(this.page.posts)
-      .groupBy(p => p.categories ? p.categories[0] : "Others")
-      .value()
-
-      const sorted = {}
-
-    categories.forEach(c => {
-      sorted[c] = postsByGroup[c]
-    })
-
     return {
-      postsByGroup: sorted
+      // postsByGroup: sorted
     };
   },
   head: {
     title: `Randy's Blog`
   },
-  mounted() {
-    console.log(this.page.posts);
-  }
+  mounted() {}
 };
 </script>
 
@@ -235,8 +236,8 @@ export default {
     .date {
       color: hsl(0, 0%, 50%);
       font-weight: lighter;
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      margin-top: 0.5rem;
     }
   }
 }

@@ -2,6 +2,9 @@
 title: 井底之蛙的一片天空
 layout: post
 date: 2019-06-17 19:01:55
+cover: https://gbstatic.djyde.com/cover/bady-qb-c4XoMGxfsVU-unsplash.jpg?x-oss-process=style/cover
+categories:
+  - Thinking
 pin: true
 ---
 

@@ -2,6 +2,8 @@
 title: 健身一年
 layout: post
 date: 2019-01-14 15:05:37
+categories:
+  - Life
 tags:
 ---
 

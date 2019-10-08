@@ -8,7 +8,7 @@
         <a :href="menu.path">{{ menu.title }}</a>
       </div>
     </nav>
-    <div class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
+    <div v-if="page.cover" class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
     <div class="post">
       <h1 class="title">{{ page.title }}</h1>
       <div class="date">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
@@ -132,6 +132,7 @@ nav {
     padding-bottom: 75%;
   }
   background-size: cover;
+  background-position: center;
 }
 
 .post {

@@ -2,6 +2,8 @@
 title: 我是如何监听 APP 价格变动的
 layout: post
 date: 2016-03-16
+categories:
+  - Coding
 tags:
   - lifeshacker
 ---

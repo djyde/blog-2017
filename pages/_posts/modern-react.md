@@ -1,6 +1,8 @@
 ---
 title: 现代的 React
 layout: post
+categories:
+  - Coding
 date: 2019-03-08 10:20:47
 tags:
 ---

@@ -1,6 +1,8 @@
 ---
 title: 我的地下刊物
 layout: post
+categories:
+  - Life
 date: 2017-08-25 21:04:17
 tags:
 ---

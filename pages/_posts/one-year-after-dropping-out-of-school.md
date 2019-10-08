@@ -1,6 +1,8 @@
 ---
 title: 离开大学这一年
 layout: post
+categories:
+  - Thinking
 date: 2016-09-08
 tags:
   - life

@@ -2,6 +2,8 @@
 title: 我在 UC 做的前端工程化探索
 date: 2019-09-27 21:38:06
 layout: post
+categories:
+  - Coding
 cover: https://gbstatic.djyde.com/blog/what-i-have-done-at-uc/IMG_185.JPG?x-oss-process=style/cover
 pin: true
 tags: 

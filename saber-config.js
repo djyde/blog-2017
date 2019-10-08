@@ -17,6 +17,14 @@ module.exports = {
       { title: 'Readings', path: '/readings' },
       { title: 'Music', path: '/music' },
       { title: 'About Me', path: '/about' },
+    ],
+    categories: [
+      { name: 'Newest' },
+      { name: 'Thinking' },
+      { name: 'Coding' },
+      { name: 'Life' },
+      { name: 'Reviews' },
+      { name: 'Others' }
     ]
   },
   permalinks: () => {

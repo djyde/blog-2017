@@ -3,7 +3,7 @@ title: 未来属于声明式编程
 date: 2019-07-18 20:11:30
 layout: post
 categories:
-  - Thinking
+  - Coding
 tags:
 cover: https://gbstatic.djyde.com/F5AF0D75-30A2-46DD-B66F-9FDEFFC10B27.png?x-oss-process=style/80
 pin: true

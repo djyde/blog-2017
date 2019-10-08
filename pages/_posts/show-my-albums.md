@@ -2,6 +2,8 @@
 title: 我买过的实体唱片
 layout: post
 date: 2019-01-13 20:13:11
+categories:
+  - Life
 tags:
 ---
 

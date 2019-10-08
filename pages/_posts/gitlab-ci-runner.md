@@ -1,6 +1,8 @@
 ---
 title: 搭建自己的 Gitlab CI Runner
 layout: post
+categories:
+  - Coding
 date: 2017-04-20 20:17:42
 tags:
 ---
