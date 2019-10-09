@@ -67,17 +67,25 @@ li {
   margin-bottom: 0.5rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, PingFang SC, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+}
 
 #footer {
   margin-top: 2em;
   padding: 1em;
   background-color: #fafafa;
   text-align: center;
-  color: #C0C5CE;
+  color: #c0c5ce;
 }
 
 #footer a {
-  color: #C0C5CE;
+  color: #c0c5ce;
 }
-
 </style>

@@ -25,7 +25,8 @@
     "prismjs": "^1.17.1",
     "saber": "^0.10.3",
     "saber-plugin-prismjs": "^0.2.3",
-    "saber-plugin-query-posts": "^0.4.4"
+    "saber-plugin-query-posts": "^0.4.4",
+    "vue-masonry": "^0.11.8"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.4",

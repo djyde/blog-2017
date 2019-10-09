@@ -13,6 +13,21 @@
           <slot />
         </div>
       </div>
+
+      <div class="book-lists">
+        <div class="category" v-for="category in $themeConfig.books">
+          <h2 class="category-name">{{ category.name }}</h2>
+          <div class="book-item" v-for="item in category.items">
+            <div class="cover">
+              <img :src="item.cover" />
+            </div>
+            <div class="intro">
+              <div>《{{ item.title }}》</div>
+              <div class="content" v-html="item.desc" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -21,6 +36,9 @@
 import Nav from "./components/nav";
 export default {
   props: ["page"],
+  head: {
+    title: `Randy's Reading`
+  },
   components: {
     Nav
   }
@@ -32,18 +50,21 @@ export default {
 @custom-media --iphone (320px <= width < 480px);
 @custom-media --pc (width >= 1024px);
 
+@lost flex flex;
+
+
 p {
   line-height: 1.5rem;
 }
 
 a {
-  padding-bottom: .25rem;
-  border-bottom: .25rem solid hsl(0, 0%, 10%);
+  padding-bottom: 0.25rem;
+  border-bottom: 0.25rem solid hsl(0, 0%, 10%);
 }
 
 .intro {
   lost-utility: clearfix;
-
+  margin-bottom: 4rem;
   .intro-content {
     lost-column: 1/3;
 
@@ -58,6 +79,31 @@ a {
 
     img {
       width: 100%;
+    }
+  }
+}
+
+.category {
+
+  .book-item {
+    lost-utility: clearfix;
+    margin-bottom: 2rem;
+
+    .cover {
+      lost-column: 1/6;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .intro {
+      line-height: 1.25rem;
+      lost-column: 5/6;
+
+      .content {
+        color: hsl(0, 0%, 50%);
+      }
     }
   }
 }

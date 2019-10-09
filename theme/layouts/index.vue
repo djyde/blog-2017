@@ -25,9 +25,9 @@
                 class="cover"
                 :style="{ backgroundImage:  `url('${post.cover}')` }"
               ></div>
-              <h2>
+              <div class="title">
                 <a :href="post.permalink">{{ post.title }}</a>
-              </h2>
+              </div>
               <div class="date">{{ dayjs(post.date).format('MMMM DD, YYYY') }}</div>
             </div>
           </div>
@@ -260,7 +260,7 @@ export default {
       background-position: center;
     }
 
-    h2 {
+    .title {
       margin: 0;
       margin-top: 0.5rem;
       font-weight: bold;
