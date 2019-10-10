@@ -17,15 +17,7 @@ module.exports = {
       },
       {
         title: 'Readings',
-        path: '/readings'
-      },
-      {
-        title: 'Music',
-        path: '/music'
-      },
-      {
-        title: 'About Me',
-        path: '/about'
+        path: '/books'
       },
     ],
     categories: [{
