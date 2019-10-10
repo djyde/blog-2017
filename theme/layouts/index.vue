@@ -4,15 +4,13 @@
       <div class="big-pic">
         <div class="slogan">
           <div class="slogan-title">Randy's Blog</div>
-          <div class="slogan-desc">about tech, life, music and reading</div>
+          <!-- <div class="slogan-desc">about tech, life, music and reading</div> -->
         </div>
       </div>
     </header>
     <div class="container">
       <div>
-        <div
-          class="bio"
-        >My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</div>
+        <div v-html="$themeConfig.bio" class="bio"></div>
       </div>
 
       <div v-masonry item-selector=".posts" class="group">
@@ -32,6 +30,20 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <div>
+        <h2 class="hr">
+          <span>Contact</span>
+        </h2>
+        <ul class="contact-list non-style-list">
+          <li v-for="contact in $themeConfig.contacts">
+            <b
+              :class="contact.className"
+            >{{ contact.className.toUpperCase() }}</b>:
+            <a :href="contact.href">{{ contact.title }}</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -121,7 +133,7 @@ export default {
 .bio {
   margin-top: 4rem;
   padding-bottom: 4rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .big-pic {
@@ -140,7 +152,7 @@ export default {
 .slogan {
   padding-left: 10%;
   position: absolute;
-  top: 50%;
+  bottom: 10%;
   text-shadow: 3px 2px 0px #7a7a7a;
 
   .slogan-title {
@@ -154,19 +166,6 @@ export default {
 
     @media (--iphone) {
       font-size: 2rem;
-    }
-  }
-
-  .slogan-desc {
-    font-size: 2rem;
-    color: hsl(0, 0%, 100%);
-
-    @media (--pc) {
-      font-size: 4rem;
-    }
-
-    @media (--iphone) {
-      font-size: 1.5rem;
     }
   }
 }
@@ -229,7 +228,6 @@ export default {
     }
   }
 }
-
 
 .posts-list {
   @media (--pc) {

@@ -14,6 +14,11 @@
         </div>
       </div>
 
+      <div style="margin-bottom: 36px;">
+        <h2>我在读的书</h2>
+        <a class="big" href="https://book.douban.com/people/djyde/do" target="_blank">豆瓣</a>
+      </div>
+
       <div class="book-lists">
         <div class="category" v-for="category in $themeConfig.books">
           <h2 class="category-name">{{ category.name }}</h2>
@@ -28,6 +33,11 @@
           </div>
         </div>
       </div>
+
+      <div>
+        <h2>书评</h2>
+        In progress...
+      </div>
     </div>
   </div>
 </template>
@@ -37,7 +47,7 @@ import Nav from "./components/nav";
 export default {
   props: ["page"],
   head: {
-    title: `Randy's Reading`
+    title: `Randy's Readings`
   },
   components: {
     Nav
@@ -52,7 +62,6 @@ export default {
 
 @lost flex flex;
 
-
 p {
   line-height: 1.5rem;
 }
@@ -64,10 +73,28 @@ a {
 
 .intro {
   lost-utility: clearfix;
-  margin-bottom: 4rem;
-  .intro-content {
-    lost-column: 1/3;
 
+  @media (--ipad) {
+    .intro-content {
+      lost-column: 1/3;
+    }
+
+    .cover {
+      lost-column: 2/3;
+    }
+  }
+
+  @media (--pc) {
+    .intro-content {
+      lost-column: 1/3;
+    }
+
+    .cover {
+      lost-column: 2/3;
+    }
+  }
+
+  .intro-content {
     p {
       margin: 0;
       margin-bottom: 1rem;
@@ -75,8 +102,6 @@ a {
   }
 
   .cover {
-    lost-column: 2/3;
-
     img {
       width: 100%;
     }
@@ -84,22 +109,44 @@ a {
 }
 
 .category {
-
   .book-item {
     lost-utility: clearfix;
     margin-bottom: 2rem;
 
-    .cover {
-      lost-column: 1/6;
+    @media (--ipad) {
+      .cover {
+        lost-column: 1/6;
+      }
 
+      .intro {
+        lost-column: 5/6;
+      }
+    }
+
+    @media (--pc) {
+      .cover {
+        lost-column: 1/6;
+      }
+
+      .intro {
+        lost-column: 5/6;
+      }
+    }
+
+    .cover {
       img {
         max-width: 100%;
+
+        @media (--iphone) {
+          max-width: 50%;
+          margin-bottom: 1rem;
+          /* display: inline-block; */
+        }
       }
     }
 
     .intro {
       line-height: 1.25rem;
-      lost-column: 5/6;
 
       .content {
         color: hsl(0, 0%, 50%);
@@ -128,6 +175,12 @@ a {
   }
 
   @media (--ipad) {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  @media (--iphone) {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;

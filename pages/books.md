@@ -1,6 +1,6 @@
 ---
 layout: books
-permalink: /books
+permalink: /readings
 cover: https://gbstatic.djyde.com/assets/Snapseed%204.jpg?x-oss-process=style/80
 ---
 

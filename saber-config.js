@@ -11,38 +11,77 @@ module.exports = {
   ],
   theme: './theme',
   themeConfig: {
-    menus: [{
-        title: 'Posts',
-        path: '/'
+    bio: `<p>My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</p>
+    <p>In my blog, I will share my ideas, my lifestyle, and my <a class="big" href="/readings">readings</a>. 
+    `,
+    contacts: [{
+        "className": "twitter",
+        "href": "https://twitter.com/randyloop",
+        "title": "@randyloop"
       },
       {
-        title: 'Readings',
-        path: '/books'
+        "className": "weibo",
+        "href": "http://weibo.com/djyde",
+        "title": "@米斯特软的"
       },
+      {
+        "className": "zhihu",
+        "href": "https://zhihu.com/people/djyde",
+        "title": "卢涛南"
+      },
+      {
+        "className": "github",
+        "href": "https://github.com/djyde",
+        "title": "djyde"
+      },
+      {
+        "className": "medium",
+        "href": "https://medium.com/@djyde",
+        "title": "@djyde"
+      },
+      {
+        "className": "email",
+        "href": "mailto:randypriv@gmail.com",
+        "title": "randypriv at gmail"
+      },
+      {
+        "className": "telegram",
+        "href": "https://t.me/djyde",
+        "title": "@djyde"
+      }
     ],
+    menus: [{
+      title: 'Readings',
+      path: '/readings'
+    }, ],
     categories: [{
-        name: 'Newest'
+        name: 'Newest',
+        title: '最新'
       },
       {
-        name: 'Thinking'
+        name: 'Thinking',
+        title: '思考'
       },
       {
-        name: 'Coding'
+        name: 'Coding',
+        title: '编程'
       },
       {
-        name: 'Life'
+        name: 'Life',
+        title: '生活'
       },
       {
-        name: 'Reviews'
+        name: 'Reviews',
+        title: '评测'
       },
       {
-        name: 'Others'
+        name: 'Others',
+        title: '其它'
       }
     ],
     books: [{
       name: '影响我最多的书',
-      items: [
-        {
+      items: [{
           title: '世界因你不同',
           buyLink: 'https://union-click.jd.com/jdc?e=&p=AyIGZRtYFAcXBFIZWR0yEgdTG10UBxc3EUQDS10iXhBeGlcJDBkNXg9JHU4YDk5ER1xOGRNLGEEcVV8BXURFUFdfC0RVU1JRUy1OVxUCFAdTGl4QMlBaBm4HbVdrZVZTC252ZHRUeRkcVGILWStaJQITBlUeXRUEFANlK1sSMkBpja3tzaejG4Gx1MCKhTdUK1sRBBMAVBxaEgoVA1ErXBULIlIOUw5BBhEGZStrFjIiN1UrWCVAfAcGGl0SVkFXV0sPHAdCVVRLXUEDRgFUTlkdAkUHU0tTJQATBlES',
           cover: 'https://gbstatic.djyde.com/blog/s3961188.jpg?x-oss-process=style/cover',

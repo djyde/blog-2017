@@ -54,13 +54,68 @@ a {
   &:hover {
     color: hsl(0, 0%, 0%);
   }
+
+  &.big {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    /* margin-left: .25rem;
+      margin-right: .25rem; */
+    border-bottom: 0.25rem solid hsl(0, 0%, 10%);
+
+    &:hover {
+      background-color: hsl(0, 0%, 0%);
+      color: hsl(0, 0%, 100%);
+    }
+  }
 }
 
-hr {
-  border: 0;
-  border-bottom: 1px solid #a7adba;
-  margin-bottom: 1em;
-  margin-top: 1em;
+.twitter {
+  color: #0C9DF2;
+}
+
+.zhihu {
+  color: #0767c8;
+}
+
+.weibo {
+  color: #E80025;
+}
+
+.github {
+  color: #333333;
+}
+
+.medium {
+  color: #00ab6b;
+}
+
+.email {
+  color: #4285F4;
+}
+
+.telegram {
+  color: #179cde;
+}
+
+
+.hr {
+  height: 0;
+  font-size: 1rem;
+  line-height: 0;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: default;
+  user-select: none;
+}
+
+.hr span {
+  background-color: #fff;
+  padding-left: .5em;
+  padding-right: .5em;
+  color: hsl(0, 0%, 80%);
 }
 
 li {
