@@ -27,7 +27,7 @@ iPad mini 2 相对于 Kindle Paperwhite 来说已经大了不少，而在 iPad P
 
 即使尺寸大，但握在手上也不会觉得笨重。
 
-![](//gbstatic.djyde.com/IMG_0025.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//gbstatic.djyde.com/IMG_0025.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 ## 浏览网页、社交网络
 
@@ -63,11 +63,11 @@ K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一
 
 这是在纸上写的字：
 
-![](//gbstatic.djyde.com/DSC01772.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//gbstatic.djyde.com/DSC01772.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 这是在 iPad 上写的同样的字：
 
-![](//gbstatic.djyde.com/DSC02391.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](//gbstatic.djyde.com/DSC02391.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 # 总结
 
