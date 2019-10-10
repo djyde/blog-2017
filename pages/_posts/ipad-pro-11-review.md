@@ -4,9 +4,9 @@ layout: post
 date: 2019-04-06 13:28:13
 categories:
   - Reviews
-cover: http://gbstatic.djyde.com/FullSizeRender.jpg?x-oss-process=style/cover
+cover: http://gbstatic.djyde.com/FullSizeRender.JPG?x-oss-process=style/cover
 ---
-![](https://gbstatic.djyde.com/DSC02308.jpg?x-oss-process=image/resize,w_2560/quality,q_80)
+![](https://gbstatic.djyde.com/DSC02308.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 这次入手 iPad Pro 完全是个意外，原本的计划是入手新款 iPad mini 更新一下我用了三年的 iPad mini 2. 后来想一想，不如用 24 期免息直接入手 iPad Pro. 
 

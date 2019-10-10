@@ -7,8 +7,10 @@
   },
   "scripts": {
     "start": "saber",
-    "genlink": "genlink links.json --permalink /link --outDir source",
-    "deploy": "npm run genlink && hexo clean && hexo d"
+    "build": "saber build",
+    "genlink": "genlink links.json --permalink /link --outDir public",
+    "deploy": "npm run build && npm run genlink && node deploy.js",
+    "deploy:only": "node deploy"
   },
   "browserslist": [
     "ie > 8",
@@ -16,6 +18,7 @@
   ],
   "dependencies": {
     "dayjs": "^1.8.16",
+    "gh-pages": "^2.1.1",
     "lodash": "^4.17.15",
     "lost": "^8.3.1",
     "normalize.css": "^8.0.1",
@@ -24,6 +27,7 @@
     "postcss-preset-env": "^6.7.0",
     "prismjs": "^1.17.1",
     "saber": "^0.10.3",
+    "saber-plugin-feed": "^0.4.2",
     "saber-plugin-prismjs": "^0.2.3",
     "saber-plugin-query-posts": "^0.4.4",
     "vue-masonry": "^0.11.8"

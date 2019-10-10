@@ -7,8 +7,20 @@ module.exports = {
     },
     {
       resolve: 'saber-plugin-prismjs'
+    },
+    {
+      resolve: 'saber-plugin-feed',
+      options: {
+        atomFeed: 'rss.xml',
+        limit: 100,
+      }
     }
   ],
+  siteConfig: {
+    url: 'https://lutaonan.com',
+    author: 'Randy',
+    email: 'randypriv@gmail.com'
+  },
   theme: './theme',
   themeConfig: {
     bio: `<p>My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</p>
