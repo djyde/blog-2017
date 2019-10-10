@@ -95,7 +95,7 @@ module.exports = {
       name: '影响我最多的书',
       items: [{
           title: '世界因你不同',
-          buyLink: 'https://union-click.jd.com/jdc?e=&p=AyIGZRtYFAcXBFIZWR0yEgdTG10UBxc3EUQDS10iXhBeGlcJDBkNXg9JHU4YDk5ER1xOGRNLGEEcVV8BXURFUFdfC0RVU1JRUy1OVxUCFAdTGl4QMlBaBm4HbVdrZVZTC252ZHRUeRkcVGILWStaJQITBlUeXRUEFANlK1sSMkBpja3tzaejG4Gx1MCKhTdUK1sRBBMAVBxaEgoVA1ErXBULIlIOUw5BBhEGZStrFjIiN1UrWCVAfAcGGl0SVkFXV0sPHAdCVVRLXUEDRgFUTlkdAkUHU0tTJQATBlES',
+          buyLink: '/link/book-shijieyinnibutong',
           cover: 'https://gbstatic.djyde.com/blog/s3961188.jpg?x-oss-process=style/cover',
           douban: 'https://book.douban.com/subject/4010196/',
           desc: `<p>我在初中时读了李开复的自传《世界因你不同》，书中讲述了李开复从幼年被送到美国求学，直至在 IBM, Apple, Google 工作的经历。</p>
@@ -104,6 +104,7 @@ module.exports = {
         },
         {
           title: '零下一度',
+          buyLink: '/link/book-lingxiayidu',
           cover: 'https://gbstatic.djyde.com/blog/s1028954.jpg?x-oss-process=style/cover',
           douban: 'https://book.douban.com/subject/1034108/',
           desc: `<p>当韩寒还是个写作者的时候，我受他影响很大。从早期的文学作品，到后期的博客杂文，我都一篇不漏地读。</p>
@@ -112,6 +113,15 @@ module.exports = {
 
 <p>记得读完这本书后，我也开始写一些短篇小说，还给《少年文艺》投过稿。</p>
           `
+        },
+        {
+          title: '月亮与六便士',
+          cover: 'https://gbstatic.djyde.com/assets/s2659208.jpg?x-oss-process=style/cover'
+        },
+        {
+          title: '刀锋',
+          cover: 'https://gbstatic.djyde.com/assets/s2347562.jpg?x-oss-process=style/cover',
+          desc: `<p>《刀锋》是我读毛姆的第二本书，也是我接触宗教和哲学的开始。主人公拉里因为战时同伴的死亡而到印度寻找答案，他的经历使我得以从一个全新的角度去思考人生和爱情观。</p>`
         }
       ]
     }]
