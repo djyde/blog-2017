@@ -4,7 +4,7 @@ categories:
   - Life
 layout: post
 date: 2019-09-21 16:16:11
-cover: http://gbstatic.djyde.com/blog/Snapseed%208.jpg?x-oss-process=style/cover
+cover: https://gbstatic.djyde.com/blog/Snapseed%208.jpg?x-oss-process=style/cover
 ---
 
 从 2014 年开始写博客以来，因为不设评论区，我收到不少读者的 Email 来信。透过 Email, 来信的人比评论区直接评论要更严谨一些。来信中的大部分是请教问题，其它则是一些感谢的话。

@@ -4,7 +4,7 @@ layout: post
 date: 2019-04-06 13:28:13
 categories:
   - Reviews
-cover: http://gbstatic.djyde.com/FullSizeRender.JPG?x-oss-process=style/cover
+cover: http://gbstatic.djyde.com/FullSizeRender.jpg?x-oss-process=style/cover
 ---
 ![](https://gbstatic.djyde.com/DSC02308.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
