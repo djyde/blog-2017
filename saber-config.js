@@ -14,6 +14,12 @@ module.exports = {
         atomFeed: 'rss.xml',
         limit: 100,
       }
+    },
+    {
+      resolve: 'saber-plugin-google-analytics',
+      options: {
+        trackId: 'UA-72147868-2'
+      }
     }
   ],
   siteConfig: {
@@ -24,7 +30,7 @@ module.exports = {
   theme: './theme',
   themeConfig: {
     bio: `<p>My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</p>
-    <p>In my blog, I will share my ideas, my lifestyle, and my <a class="big" href="/readings">readings</a>. 
+    <p>In my blog, I will share my ideas, my lifestyle, and my <a class="big" href="/readings">readings</a>. Or know more about me through the <a class="big" href="/timeline">Timeline</a>
     `,
     contacts: [{
         "className": "twitter",

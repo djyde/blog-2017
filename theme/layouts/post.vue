@@ -4,7 +4,7 @@
     <div v-if="page.cover" class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
     <div class="post">
       <h1 class="title">{{ page.title }}</h1>
-      <div class="date">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
+      <div v-if="page.date" class="date">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
       <div class="content">
         <slot />
       </div>
