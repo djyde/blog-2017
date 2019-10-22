@@ -113,7 +113,7 @@ Vue 通过自己的 `.vue` 文件来定义 components，`.vue` 文件里包含�
 
 以上就是一个简单的 component 实现，借助 webpack，甚至可以直接在 component 里写 es6、scss 和 jade。
 
-###路由
+### 路由
 路由对于 Single Page Application 来说应该算是不可少的东西，Vue 作为一个 Library，它本身并不提供这些组件。目前官方的 vue-router 仍处于 technical preview 的状态，官方也建议可以使用 component 和 Director.js 实现路由，比如：
 
 ```html
