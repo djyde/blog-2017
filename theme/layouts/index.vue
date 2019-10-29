@@ -200,7 +200,6 @@ export default {
 
 .post-title {
   a {
-    text-decoration: underline;
   }
   margin-bottom: 0.5rem;
 }

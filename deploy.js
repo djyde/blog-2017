@@ -7,6 +7,15 @@ pages.publish('public', {
   if (err) {
     console.log(err)
   } else {
-    console.log('finished')
+    pages.publish('public', {
+      repo: 'git@github.com:djyde/djyde.github.io.git',
+      branch: 'master'
+    }, err => {
+      if (err) {
+        console.log(err)
+      } else {
+        console.log('finished')
+      }
+    })
   }
 })
