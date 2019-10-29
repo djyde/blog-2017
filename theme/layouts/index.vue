@@ -1,46 +1,41 @@
 <template>
   <div>
-    <header>
-      <div class="big-pic">
-        <div class="slogan">
-          <div class="slogan-title">Randy's Blog</div>
-          <!-- <div class="slogan-desc">about tech, life, music and reading</div> -->
-        </div>
-      </div>
-    </header>
     <div class="container">
       <div>
+        <div style="text-align: center;">
+          <div class="avatar" />
+        </div>
         <div v-html="$themeConfig.bio" class="bio"></div>
       </div>
-
-      <div v-masonry item-selector=".posts" class="group">
-        <div class="posts" v-for="(val, key) in postsByGroup">
-          <span class="category-name">{{ key }}</span>
-          <div class="posts-list">
-            <div class="post-item" v-for="post in val">
-              <div
-                v-if="post.cover"
-                class="cover"
-                :style="{ backgroundImage:  `url('${post.cover}')` }"
-              ></div>
-              <div class="title">
-                <a :href="post.permalink">{{ post.title }}</a>
-              </div>
-              <div class="date">{{ dayjs(post.date).format('MMMM DD, YYYY') }}</div>
-            </div>
+      <h2 class="hr">
+        <span>Featured</span>
+      </h2>
+      <div class="posts">
+        <div v-for="post in postsByGroup.featured">
+          <div class="post-title">
+            <a :href="post.permalink">{{ post.title }}</a>
+            <span class="post-date">({{ dayjs(post.date).format('MMM DD, YYYY') }})</span>
           </div>
         </div>
       </div>
-
+      <h2 class="hr">
+        <span>Posts</span>
+      </h2>
+      <div class="posts">
+        <div v-for="post in postsByGroup.others">
+          <div class="post-title">
+            <a :href="post.permalink">{{ post.title }}</a>
+            <span class="post-date">({{ dayjs(post.date).format('MMM DD, YYYY') }})</span>
+          </div>
+        </div>
+      </div>
       <div>
         <h2 class="hr">
           <span>Contact</span>
         </h2>
         <ul class="contact-list non-style-list">
           <li v-for="contact in $themeConfig.contacts">
-            <b
-              :class="contact.className"
-            >{{ contact.className.toUpperCase() }}</b>:
+            <b :class="contact.className">{{ contact.className.toUpperCase() }}</b>:
             <a :href="contact.href">{{ contact.title }}</a>
           </li>
         </ul>
@@ -71,20 +66,10 @@ export default {
 
       const posts = [...this.page.posts];
       // posts = _.sortBy(posts)
-      const newest = posts.splice(0, 3);
-      const postsByGroup = _(posts)
-        .groupBy(p => (p.categories ? p.categories[0] : "Others"))
-        .value();
-
-      postsByGroup["Newest"] = newest;
-
-      const sorted = {};
-
-      categories.forEach(c => {
-        sorted[c.name] = postsByGroup[c.name];
-      });
-
-      return sorted;
+      return {
+        featured: posts.filter(post => post.pin),
+        others: posts.filter(post => !post.pin)
+      }
     }
   },
   data() {
@@ -111,6 +96,7 @@ export default {
 
 .container {
   box-sizing: border-box;
+  padding-top: 3rem;
 
   @media (--pc) {
     width: 960px;
@@ -134,6 +120,22 @@ export default {
   margin-top: 4rem;
   padding-bottom: 4rem;
   font-size: 1rem;
+}
+
+.avatar {
+  display: inline-block;
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://gbstatic.djyde.com/assets/IMG_9051.JPG?x-oss-process=style/80");
+}
+
+.post-date {
+  margin-left: .5rem;
+  color: hsl(0, 0%, 50%);
 }
 
 .big-pic {
@@ -194,6 +196,13 @@ export default {
       font-size: 2rem;
     }
   }
+}
+
+.post-title {
+  a {
+    text-decoration: underline;
+  }
+  margin-bottom: 0.5rem;
 }
 
 .category-name {

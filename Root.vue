@@ -38,6 +38,7 @@ export default {
 
 body {
   font-family: "Noto Serif SC", Lusitana, serif;
+  line-height: 1.4rem;
 }
 
 blockquote {
