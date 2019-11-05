@@ -99,7 +99,7 @@ export default {
   h5,
   h6 {
     margin: 0;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   strong {
@@ -110,6 +110,7 @@ export default {
   }
 
   .title {
+    line-height: 2.5rem;
     margin-bottom: 1rem;
   }
 
