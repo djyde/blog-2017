@@ -33,8 +33,9 @@ module.exports = {
     bio: `
     <h2>Randy's Blog</h2>
     <p>My name is Randy Lu (卢涛南). I was born in 1995 and I'd been coding since my 13. I used C, PHP, Python, JavaScript. But now I focus on JavaScript and currently work at Alibaba Inc.</p>
-    <p>In my blog, I will share my ideas, my lifestyle, and my <a class="big" href="/readings">readings</a>. Or know more about me through the <a class="big" href="/timeline">Timeline</a>.
+    <p>In my blog, I will share my ideas, my lifestyle, and my <a class="big" href="/readings">readings</a>. Or know more <a class="big" href="/about">About me</a>.
     <p>You could also watch my videos (music) on <a class="big" target="_blank" href="https://www.youtube.com/channel/UCFQUVJ0_ZGzvuX6GHl_cqsQ">YouTube</a> or <a target="_blank" class="big" href="https://space.bilibili.com/20931693">Bilibili</a>.</p>
+    <p><a class="big" href="https://t.me/s/randythoughts">Big Tweets</a></p>
     <p><a class="big" href="/rss.xml">RSS</a></p>
     `,
     contacts: [{
