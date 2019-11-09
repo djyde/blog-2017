@@ -29,6 +29,30 @@ module.exports = {
   },
   theme: './theme',
   themeConfig: {
+    navs: [{
+        title: '我寫',
+        alias: 'writings',
+        url: '/'
+      },
+      {
+        title: '我讀',
+        alias: 'readings',
+        url: '/readings'
+      },
+      {
+        title: '音樂',
+        alias: 'music',
+        url: '/music'
+      }, {
+        title: '攝影',
+        alias: 'photograph',
+        url: '/photograph'
+      }, {
+        title: '關於我',
+        alias: 'about',
+        url: '/about'
+      }
+    ],
     avatar: 'https://gbstatic.djyde.com/assets/Snapseed%203.jpg?x-oss-process=image/auto-orient,1/quality,q_80/bright,-10/resize,w_2560/contrast,-30/interlace,1',
     bio: `
     <h2>Randy's Blog</h2>
