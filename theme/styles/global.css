@@ -3,3 +3,46 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+html {
+  @apply antialiased;
+}
+
+* {
+  transition: 0.2s all;
+}
+
+.post p {
+  @apply mt-4 mb-4;
+}
+
+.post a {
+  @apply border-b-4 border-gray-500 pb-1;
+}
+
+.post ul {
+  @apply list-disc list-inside;
+}
+
+.twitter {
+  color: #0C9DF2;
+}
+.zhihu {
+  color: #0767c8;
+}
+.weibo {
+  color: #E80025;
+}
+.github {
+  color: #333333;
+}
+.medium {
+  color: #00ab6b;
+}
+.email {
+  color: #4285F4;
+}
+.telegram {
+  color: #179cde;
+}

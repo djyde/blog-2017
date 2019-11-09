@@ -3,10 +3,10 @@
     <slot />
 
     <div class="font-serif text-sm text-center p-32 text-gray-500 font-bold">
-      <p>
+      <div>
         2014-2019
         <a href="/">Randy's Blog</a>
-      </p>
+      </div>
     </div>
   </div>
 </template>
@@ -32,12 +32,4 @@ export default {
 
 <style>
 @import "./styles/global.css";
-
-html {
-  @apply antialiased;
-}
-
-* {
-  transition: .2s all;
-}
 </style>
