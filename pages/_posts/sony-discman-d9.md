@@ -29,7 +29,7 @@ Discman D-9 是 1989 年发行的机器，距今已经有 30 年整了。收到�
 
 D9 是一台支持 MEGA BASS 的播放器，是 SONY 研发的低音补偿功能。在机器左侧有三段开关控制三等补偿强度。
 
-![机器上的 MEGA BASS 标识](https://gbstatic.djyde.com/blog/Snapseed%2018.JPG?x-oss-process=style/80)
+![机器上的 MEGA BASS 标识](https://gbstatic.djyde.com/blog/Snapseed%2016.JPG?x-oss-process=style/80)
 
 播放器由两节 5 号电池驱动。在播放器前面有一块液晶屏幕。
 
