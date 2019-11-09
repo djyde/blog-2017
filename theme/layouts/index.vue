@@ -6,8 +6,8 @@
         <img class="w-24 mx-auto" src="https://gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80" />
       </div>
       <nav>
-        <div class="flex w-full justify-center p-8">
-          <div v-for="navItem in $themeConfig.navs" class="flex flex-col ml-6 mr-6 text-gray-600">
+        <div class="flex flex-col sm:flex-row w-full justify-center p-8">
+          <div v-for="navItem in $themeConfig.navs" class="mt-6 sm:ml-6 sm:mr-6 text-gray-600">
             <a class="hover:text-gray-900 text-center" :href="navItem.url">
               <div>{{ navItem.title }}</div>
               <div
@@ -26,7 +26,7 @@
       <div class="mt-1 text-gray-900 text-center" v-for="post in postsByGroup.featured">
         <a class="hover:text-gray-600" :href="post.permalink">{{ post.title }}</a>
         <span
-          class="post-date text-gray-500 text-sm"
+          class="text-gray-500 text-sm hidden sm:inline-block"
         >({{ dayjs(post.date).format('MMM DD, YYYY') }})</span>
       </div>
     </div>
@@ -37,7 +37,7 @@
       <div class="mt-1 text-gray-900 text-center" v-for="post in postsByGroup.others">
         <a class="hover:text-gray-600" :href="post.permalink">{{ post.title }}</a>
         <span
-          class="post-date text-gray-500 text-sm"
+          class="text-gray-500 text-sm hidden sm:inline-block"
         >({{ dayjs(post.date).format('MMM DD, YYYY') }})</span>
       </div>
     </div>
