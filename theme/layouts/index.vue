@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav-header active-nav="writings" />
-    <div class="mt-12 font-bold text-gray-500 text-center">Featured</div>
+    <div class="mt-12 font-bold font-sans text-gray-500 text-center">Featured</div>
 
     <div>
       <div
@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div class="mt-12 font-bold text-gray-500 text-center">Posts</div>
+    <div class="mt-12 font-bold font-sans text-gray-500 text-center">Posts</div>
 
     <div>
       <div

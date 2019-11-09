@@ -18,7 +18,7 @@
 
       <div class="mt-12">
         <div class="" v-for="category in $themeConfig.books" :key="category.name">
-          <h2 class="text-center text-gray-500 font-bold">{{ category.name }}</h2>
+          <h4 class="text-center text-gray-500 font-bold">{{ category.name }}</h4>
           <div class="book-item" v-for="item in category.items" :key="item.title">
             <div class="p-4">
               <img class="sm:max-w-xs mx-auto" :src="item.cover" />
@@ -39,7 +39,7 @@ import Nav from "./components/nav";
 export default {
   props: ["page"],
   head: {
-    title: `Randy's Readings`
+    title: `我讀 - Randy's Blog`
   },
   components: {
     NavHeader: require('./components/header').default

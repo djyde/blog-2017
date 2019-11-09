@@ -48,7 +48,7 @@ Vue 最让我喜欢的是它的 Components System，利用它可以构建组件�
 
 关于 Vue 和其它库和框架的对比，官方也有作者更详细的 [解答](http://vuejs.org/guide/faq.html)（[中文版本](http://cn.vuejs.org/guide/faq.html)）
 
-##Using Vue.js
+## Using Vue.js
 SISE Game 并不算一个大型的 Web APP，但也规范地使用组件化的开发，整个项目的结构大致如下：
 
 ```text

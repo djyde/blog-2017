@@ -1,44 +1,13 @@
 <template>
-  <nav>
-    <div class="logo">
+  <nav class="bg-black flex text-gray-300 item-center font-serif">
+    <div class="text font-bold mr-4 p-1 pl-4">
       <a href="/">Randy's Blog</a>
     </div>
-    <div v-for="menu in $themeConfig.menus" class="nav-item">
-      <a :href="menu.path">{{ menu.title }}</a>
+    <div v-for="nav in $themeConfig.navs" class="flex item-center" :key="nav.alias">
+      <a class="mr-4 hover:bg-gray-300 hover:text-gray-900 p-1" :href="nav.url">{{ nav.title }}</a>
     </div>
   </nav>
 </template>
 
 <style scoped>
-nav {
-  background-color: hsl(0, 0%, 0%);
-
-  .logo {
-    padding-left: 1rem;
-    margin-right: 2rem;
-    display: inline-block;
-    a {
-      font-weight: bold;
-      color: hsl(0, 0%, 100%);
-    }
-  }
-
-  .nav-item {
-    display: inline-block;
-
-    a {
-      display: block;
-      color: hsl(0, 0%, 100%);
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-    }
-
-    a:hover {
-      color: hsl(0, 0%, 0%);
-      background-color: hsl(0, 0%, 100%);
-    }
-  }
-}
 </style>

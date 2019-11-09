@@ -1,5 +1,5 @@
 ---
-title: About Me - Randy's Blog
+title: 關於我 - Randy's Blog
 layout: home
 alias: about
 permalink: /about

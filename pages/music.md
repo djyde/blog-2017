@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Music - Randy's Blog
+title: 音樂 - Randy's Blog
 alias: music
 permalink: /music
 ---

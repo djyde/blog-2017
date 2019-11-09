@@ -43,11 +43,13 @@ module.exports = {
         title: '音樂',
         alias: 'music',
         url: '/music'
-      }, {
-        title: '攝影',
-        alias: 'photograph',
-        url: '/photograph'
-      }, {
+      }, 
+      // {
+      //   title: '攝影',
+      //   alias: 'photograph',
+      //   url: '/photograph'
+      // }, 
+      {
         title: '關於我',
         alias: 'about',
         url: '/about'
@@ -128,7 +130,7 @@ module.exports = {
       }
     ],
     books: [{
-      name: '影响我最多的书',
+      name: '影响我最多的一些书',
       items: [{
           title: '世界因你不同',
           buyLink: '/link/book-shijieyinnibutong',

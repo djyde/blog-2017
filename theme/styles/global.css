@@ -6,7 +6,7 @@
 
 
 html {
-  @apply antialiased;
+  font-family: "Noto Serif SC", Lusitana, serif;
 }
 
 * {
@@ -14,11 +14,39 @@ html {
 }
 
 .post {
+  font-family: "Noto Serif SC", Lusitana, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, PingFang SC, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+}
+
+
+.post {
   @apply leading-relaxed text-gray-800;
 }
 
 .post p {
-  @apply mt-4 mb-4;
+  @apply mt-4 mb-4 pl-4 pr-4;
+}
+
+.post h1 {
+  @apply text-3xl font-bold pl-4 pr-4 mt-12;
+}
+.post h2 {
+  @apply text-2xl font-bold pl-4 pr-4 mt-12;
+}
+.post h3 {
+  @apply text-xl font-bold pl-4 pr-4 mt-12;
+}
+.post h4 {
+  @apply text-lg font-bold pl-4 pr-4 mt-12;
 }
 
 .post a {
@@ -26,7 +54,7 @@ html {
 }
 
 .post ul {
-  @apply list-disc list-inside;
+  @apply list-disc list-inside pl-4 pr-4;
 }
 
 .twitter {
@@ -49,4 +77,8 @@ html {
 }
 .telegram {
   color: #179cde;
+}
+
+iframe {
+  max-width: 100%;
 }

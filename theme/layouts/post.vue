@@ -1,38 +1,38 @@
 <template>
   <div>
-    <Nav />
-    <div v-if="page.cover" class="cover" :style="{ backgroundImage: `url('${page.cover}')`}"></div>
-    <div class="post">
-      <h1 class="title">{{ page.title }}</h1>
-      <div v-if="page.date" class="date">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
+    <nav-bar />
+    <div v-if="page.cover" class="bg-cover" :style="{ paddingBottom: '40%', backgroundImage: `url('${page.cover}')`}"></div>
+    <div class="post container mx-auto lg:pl-48 lg:pr-48" >
+      <h1 class="pl-4 pr-4">{{ page.title }}</h1>
+      <div v-if="page.date" class="text-sm text-gray-500 pl-4 pr-4">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
       <div class="content">
         <slot />
       </div>
-
-      <div class="post-footer">
-        <hr />
-        <p>讨论请发邮件到 randypriv@gmail.com</p>
-        <p>未经授权，禁止转载</p>
-        <p>通过支付宝 djyde520@gmail.com 或赞赏码赞助此文</p>
-        <p>
-          或通过订阅我的
-          <a href="/blog/my-zsxq/">知识星球</a>支持本博客
-        </p>
-        <br />
-        <p>
-          <img class="bmc" src="//gbstatic.djyde.com/assets/006tKfTcgy1fkuufy2cadj30w00w0tb2.jpg" />
-        </p>
-      </div>
     </div>
+    <div class="post sm:text-center">
+      <hr class="mt-12 mb-12" />
+      <p>讨论请发邮件到 randypriv@gmail.com</p>
+      <p>未经授权，禁止转载</p>
+      <p>通过支付宝 djyde520@gmail.com 或赞赏码赞助此文</p>
+      <p>
+        或通过订阅我的
+        <a href="/blog/my-zsxq/">知识星球</a>支持本博客
+      </p>
+      <br />
+      <p>
+        <img class="w-auto sm:w-64 mx-auto" src="//gbstatic.djyde.com/assets/006tKfTcgy1fkuufy2cadj30w00w0tb2.jpg" />
+      </p>
+    </div>
+  </div>
 </template>
 
 <script>
-import Nav from './components/nav'
+import NavBar from "./components/nav";
 
 export default {
   props: ["page"],
   components: {
-    Nav
+    NavBar
   },
   methods: {
     dayjs: require("dayjs")
@@ -53,125 +53,5 @@ export default {
 </script>
 
 <style scoped>
-@import "./styles/prism-dracula.css";
-.saber-highlight code {
-  font-size: 0.5rem;
-}
-
-@custom-media --ipad (480px < width <= 1024px);
-@custom-media --iphone (320px <= width < 480px);
-@custom-media --pc (width > 1024px);
-
-.post-footer {
-  padding-top: 2rem;
-  text-align: center;
-  color: #65737e;
-}
-
-.post-footer p {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-.bmc {
-  max-width: 30% !important;
-  @media (--iphone) {
-    max-width: 100% !important;
-  }
-}
-
-.cover {
-  padding-bottom: 40%;
-  @media (--iphone) {
-    padding-bottom: 75%;
-  }
-  background-size: cover;
-  background-position: center;
-}
-
-.post {
-  margin-top: 4rem;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-    margin-top: 2rem;
-  }
-
-  strong {
-    background-color: hsl(0, 0%, 90%);
-    color: hsl(0, 0%, 0%);
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
-  .title {
-    line-height: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .date {
-    color: hsl(0, 0%, 50%);
-  }
-
-  @media (--pc) {
-    width: 960px;
-    margin: 0 auto;
-  }
-
-  @media (--iphone) {
-    padding-left: 5%;
-    padding-right: 5%;
-    img {
-      width: 100%;
-    }
-  }
-
-  @media (--ipad) {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .content {
-    img {
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
-
-      @media (--ipad) {
-        width: 100%;
-      }
-
-      @media (--iphone) {
-        width: 100%;
-      }
-    }
-
-    p {
-      line-height: 1.8rem;
-    }
-
-    a {
-      /* color: hsl(0, 0%, 50%); */
-      padding-left: 0.25rem;
-      padding-right: 0.25rem;
-      /* margin-left: .25rem;
-      margin-right: .25rem; */
-      border-bottom: 0.25rem solid hsl(0, 0%, 10%);
-    }
-
-    a:hover {
-      background-color: hsl(0, 0%, 0%);
-      color: hsl(0, 0%, 100%);
-    }
-  }
-}
-
-.footer {
-  text-align: center;
-}
+@import "../styles/prism-dracula.css";
 </style>
