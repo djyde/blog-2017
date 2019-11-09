@@ -5,7 +5,7 @@ alias: about
 permalink: /about
 ---
 
-<div class="post pl-8 pr-8 sm:pl-24 sm:pr-24 .leading-relaxed text-gray-800">
+<div class="post pl-4 pr-4 sm:pl-24 sm:pr-24">
 
 Randy Lu (卢涛南), 1995 年出生于广东中山。好编程，[阅读](/readings)，[音乐](https://space.bilibili.com/20931693)，写作以及一切创造类活动。2008 年起学习[编程至今](/blog/my-coding-road)。
 

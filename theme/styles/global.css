@@ -13,6 +13,10 @@ html {
   transition: 0.2s all;
 }
 
+.post {
+  @apply leading-relaxed text-gray-800;
+}
+
 .post p {
   @apply mt-4 mb-4;
 }

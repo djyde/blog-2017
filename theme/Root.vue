@@ -2,7 +2,7 @@
   <div>
     <slot />
 
-    <div class="font-serif text-sm text-center p-32 text-gray-500 font-bold">
+    <div class="font-serif text-sm text-center p-12 sm:p-32 text-gray-500 font-bold">
       <div>
         2014-2019
         <a href="/">Randy's Blog</a>
