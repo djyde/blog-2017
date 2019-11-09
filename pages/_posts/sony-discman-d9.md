@@ -1,6 +1,6 @@
 ---
 title: 1989 年的 CD 机 - SONY Discman D-9
-date: 2019-11-09 02:28:34
+date: 2019-11-09
 layout: post
 cover: https://gbstatic.djyde.com/blog/Snapseed%2017.JPG?x-oss-process=style/80
 ---
