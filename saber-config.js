@@ -30,7 +30,7 @@ module.exports = {
   theme: './theme',
   themeConfig: {
     navs: [{
-        title: '我寫',
+        title: '寫作',
         alias: 'writings',
         url: '/'
       },
