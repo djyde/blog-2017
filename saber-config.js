@@ -1,4 +1,5 @@
 module.exports = {
+  extractCSS: true,
   plugins: [{
       resolve: 'saber-plugin-query-posts',
       options: {
