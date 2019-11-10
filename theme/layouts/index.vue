@@ -64,6 +64,14 @@ export default {
       title: this.$themeConfig.title,
       meta: [
         {
+          property: "title",
+          content: this.$themeConfig.title
+        },
+        {
+          property: "description",
+          content: this.$themeConfig.description
+        },
+        {
           property: "og:title",
           content: this.$themeConfig.title
         },

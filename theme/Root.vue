@@ -8,7 +8,9 @@
         <a href="/">Randy's Blog</a>
       </div>
       <div class="mt-2">
-        可通過 <a class="border-b-4" href="/rss.xml">RSS</a> 或 <a class="border-b-4" href="https://tinyletter.com/randysblog">Email</a> 訂閱本博客
+        可通過
+        <a class="border-b-4" href="/rss.xml">RSS</a> 或
+        <a class="border-b-4" href="https://tinyletter.com/randysblog">Email</a> 訂閱本博客
       </div>
     </div>
   </div>
@@ -16,19 +18,27 @@
 
 <script>
 export default {
-  head: {
-    // meta: [
-    //   {
-    //     name: 'viewport',
-    //     content: 'width=device-width,user-scalable=no'
-    //   }
-    // ],
-    link: [
-      {
-        rel: "stylesheet",
-        href: "//ppp.djyde.com/css?family=Noto+Serif+SC"
-      }
-    ]
+  head() {
+    return {
+      // meta: [
+      //   {
+      //     name: 'viewport',
+      //     content: 'width=device-width,user-scalable=no'
+      //   }
+      // ],
+      meta: [
+        {
+          name: "og:site_name",
+          content: this.$themeConfig.title
+        }
+      ],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "//ppp.djyde.com/css?family=Noto+Serif+SC"
+        }
+      ]
+    };
   }
 };
 </script>

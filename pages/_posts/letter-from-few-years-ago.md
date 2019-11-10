@@ -6,7 +6,7 @@ date: 2019-11-05 14:57
 
 <br />
 
-![这封信的照片](//gbstatic.djyde.com/blog/lett.jpeg)
+![这封信的照片]\(https://gbstatic.djyde.com/blog/lett.jpeg)
 
 这是一封 2014 年我写给未来的自己的信。当时在上大一，是上职业规划课时老师布置给我们的一个作业，写完我们就交给老师保存，他会在我们大学毕业后返还。
 

@@ -33,6 +33,7 @@ module.exports = {
   theme: './theme',
   themeConfig: {
     title: `Randy's Blog`,
+    description: `Randy is blogging about life, tech, music`,
     avatar:'https://gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80',
     navs: [{
         title: '寫作',

@@ -20,7 +20,7 @@
       </p>
       <br />
       <p>
-        <img class="w-auto sm:w-64 mx-auto" src="//gbstatic.djyde.com/assets/006tKfTcgy1fkuufy2cadj30w00w0tb2.jpg" />
+        <img class="w-auto sm:w-64 mx-auto" src="https://gbstatic.djyde.com/assets/006tKfTcgy1fkuufy2cadj30w00w0tb2.jpg" />
       </p>
     </div>
   </div>
@@ -42,7 +42,35 @@ export default {
       title: `${this.page.title} - ${this.$themeConfig.title}`,
       meta: [
         {
+          property: "title",
+          content: `${this.page.title} - ${this.$themeConfig.title}`
+        },
+        {
+          property: "description",
+          content: this.page.excerpt
+        },
+        {
+          property: "og:description",
+          content: this.page.excerpt
+        },
+        {
+          property: "twitter:description",
+          content: this.page.excerpt
+        },
+        {
           property: "og:title",
+          content: `${this.page.title} - ${this.$themeConfig.title}`
+        },
+        {
+          property: "og:type",
+          content: 'article'
+        },
+        {
+          property: 'article:published_time',
+          content: this.page.date
+        },
+        {
+          property: "twitter:title",
           content: `${this.page.title} - ${this.$themeConfig.title}`
         },
         {
@@ -51,6 +79,10 @@ export default {
         },
         {
           property: 'og:image',
+          content: this.page.cover || this.page.poster || this.$themeConfig.avatar
+        },
+        {
+          property: 'twitter:image',
           content: this.page.cover || this.page.poster || this.$themeConfig.avatar
         }
       ],

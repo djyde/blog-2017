@@ -37,16 +37,16 @@ tags:
 
 以上是我对这份刊物仅剩的几乎所有回忆，手写的稿早就在初中一次搬课室的过程中丢失了。谁会想到这些东西未来会被这样津津乐道呢。这确实是一个遗憾。
 
-![](//gbstatic.djyde.com/assets/006tNc79gy1fiw9q3a4rvj30hs07e753.jpg)
+![]\(https://gbstatic.djyde.com/assets/006tNc79gy1fiw9q3a4rvj30hs07e753.jpg)
 
 *从手写改革到印刷的头几期*
 
 
-![](//gbstatic.djyde.com/assets/006tNc79gy1fiw9rbi9otj30hs0aqwfq.jpg)
+![]\(https://gbstatic.djyde.com/assets/006tNc79gy1fiw9rbi9otj30hs0aqwfq.jpg)
 
 *校运会特刊的「发布会」*
 
-![](//gbstatic.djyde.com/assets/006tNc79gy1fiw9ryihc9j30hs0by0up.jpg)
+![]\(https://gbstatic.djyde.com/assets/006tNc79gy1fiw9ryihc9j30hs0by0up.jpg)
 
 *校运会，「小编」们的一次合照*
 
