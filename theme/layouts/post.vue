@@ -9,7 +9,7 @@
         <slot />
       </div>
     </div>
-    <div class="post sm:text-center">
+    <div class="post text-center text-sm">
       <hr class="mt-12 mb-12" />
       <p>讨论请发邮件到 randypriv@gmail.com</p>
       <p>未经授权，禁止转载</p>

@@ -49,6 +49,10 @@ h6 {
   @apply text-lg font-bold pl-4 pr-4 mt-12;
 }
 
+.post img {
+  @apply mx-auto;
+}
+
 .post a {
   @apply border-b-4 border-gray-500 pb-1;
 }
