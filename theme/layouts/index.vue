@@ -59,8 +59,24 @@ export default {
       // postsByGroup: sorted
     };
   },
-  head: {
-    title: `Randy's Blog`
+  head() {
+    return {
+      title: this.$themeConfig.title,
+      meta: [
+        {
+          property: "og:title",
+          content: this.$themeConfig.title
+        },
+        {
+          property: "og:url",
+          content: this.$siteConfig.url
+        },
+        {
+          property: 'og:image',
+          content: this.$themeConfig.avatar
+        }
+      ]
+    }
   },
   mounted() {}
 };

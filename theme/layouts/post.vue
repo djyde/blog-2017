@@ -39,7 +39,21 @@ export default {
   },
   head() {
     return {
-      title: `${this.page.title} - Randy's Blog`,
+      title: `${this.page.title} - ${this.$themeConfig.title}`,
+      meta: [
+        {
+          property: "og:title",
+          content: `${this.page.title} - ${this.$themeConfig.title}`
+        },
+        {
+          property: "og:url",
+          content: `${this.$siteConfig.url}${this.page.permalink}`
+        },
+        {
+          property: 'og:image',
+          content: this.page.cover || this.page.poster || this.$themeConfig.avatar
+        }
+      ],
       link: [
         // {
         //   rel: 'stylesheet',

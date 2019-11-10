@@ -1,5 +1,7 @@
 module.exports = {
-  extractCSS: true,
+  build: {
+    extractCSS: true
+  },
   plugins: [{
       resolve: 'saber-plugin-query-posts',
       options: {
@@ -30,6 +32,8 @@ module.exports = {
   },
   theme: './theme',
   themeConfig: {
+    title: `Randy's Blog`,
+    avatar:'https://gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80',
     navs: [{
         title: '寫作',
         alias: 'writings',
@@ -44,7 +48,7 @@ module.exports = {
         title: '音樂',
         alias: 'music',
         url: '/music'
-      }, 
+      },
       // {
       //   title: '攝影',
       //   alias: 'photograph',
