@@ -71,7 +71,7 @@ pin: true
 
 这本书的作者是专门搞 PHP 培训的，讲得比较浅显易懂，成了我的救命宝典。从那本书里，我对 PHP Web 开发有了一个大概的了解，知道 LAMP 架构，知道一个完整的 Web 系统应该有哪些基本的部分，知道什么是模板引擎，更重要的是，开始接触 Linux。读完读那本《PHP + MySQL 程序设计》，犹如打通了任督二脉。
 
-![]\(https://gbstatic.djyde.com/assets/006tNbRwgy1ffiiwdpdj5j30w40saq8h.jpg)
+![](https://gbstatic.djyde.com/assets/006tNbRwgy1ffiiwdpdj5j30w40saq8h.jpg)
 
 后来我用 PHP 做了一个我们校内的非常精简的社交平台，不是说我那时就开始崇尚极简，而是我的能力就到这了。于是脑抽风去找学校的副校长谈，结果副校长说这个不错，但是我们不主张校内建的讨论区。
 

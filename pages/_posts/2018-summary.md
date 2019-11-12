@@ -82,7 +82,7 @@ tags:
 
 ## 博客成绩
 
-![]\(https://gbstatic.djyde.com/assets/006tNc79ly1fyy7f777sfj31im0cead2.jpg)
+![](https://gbstatic.djyde.com/assets/006tNc79ly1fyy7f777sfj31im0cead2.jpg)
 
 在这一年收到了挺多的读者来信，向我询问建议，我都尽量抽时间一一回复。还有一些文章收到的打赏留言里提到的因为我的文章而有所收获，让我知道我写的博客的确有他的价值所在。
 

@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-black flex text-gray-300 item-center font-serif">
+  <nav class="bg-black flex text-white item-center font-serif">
     <div class="text font-bold mr-4 p-1 pl-4">
       <a href="/">Randy's Blog</a>
     </div>

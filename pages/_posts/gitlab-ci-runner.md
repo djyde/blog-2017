@@ -129,7 +129,7 @@ Please enter the default Docker image (e.g. ruby:2.1):
 
 这时 runner 就会出现在 `runners` 页面：
 
-![]\(https://gbstatic.djyde.com/assets/006tNc79gy1fetbnh1e12j310008qdgs.jpg)
+![](https://gbstatic.djyde.com/assets/006tNc79gy1fetbnh1e12j310008qdgs.jpg)
 
 ## FAQ
 

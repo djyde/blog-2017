@@ -22,7 +22,7 @@ tags:
 
 片尾，男女主角决定承受平淡、怨怼，回到对方身边。因为在各自经历过后，更加清楚彼此为何在一起。
 
-![]\(https://gbstatic.djyde.com/blog/p2512608863.jpg?x-oss-process=style/80)
+![](https://gbstatic.djyde.com/blog/p2512608863.jpg?x-oss-process=style/80)
 
 *图片来自 https://movie.douban.com/photos/photo/2512608863/ *
 
