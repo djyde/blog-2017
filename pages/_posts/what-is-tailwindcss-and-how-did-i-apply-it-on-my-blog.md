@@ -120,14 +120,12 @@ HTML 结构如下：
 
 <img alt="A singup form" class="sm:w-2/3" src="https://gbstatic.djyde.com/blog/%E6%88%AA%E5%B1%8F2019-11-12%E4%B8%8B%E5%8D%887.27.31.png" />
 
-Codepen: https://codepen.io/djyde-1474473388/pen/RwwYPEv?editors=1000#0
+<br />
 
-<p class="codepen" data-height="426" data-theme-id="default" data-default-tab="html,result" data-user="djyde-1474473388" data-slug-hash="RwwYPEv" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="tailwind-signup-form">
-  <span>See the Pen <a href="https://codepen.io/djyde-1474473388/pen/RwwYPEv">
-  tailwind-signup-form</a> by Randy (<a href="https://codepen.io/djyde-1474473388">@djyde-1474473388</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe height="265" style="width: 100%;" scrolling="no" title="tailwind-signup-form" src="https://codepen.io/djyde-1474473388/embed/RwwYPEv?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/djyde-1474473388/pen/RwwYPEv'>tailwind-signup-form</a> by Randy
+  (<a href='https://codepen.io/djyde-1474473388'>@djyde-1474473388</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Tailwind CSS 满足了我几点：
 
