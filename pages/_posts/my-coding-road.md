@@ -43,19 +43,19 @@ pin: true
 
 学习了一段时间后，我开发了第一个上线到软件站的软件，叫做「网帝系统清理助手 2009」，至今还能 Google 出来。
 
-![网帝系统清理助手]\(https://gbstatic.djyde.com/assets/006tNbRwgy1ffihstvr4cj30j50ej406.jpg)
+![网帝系统清理助手](https://gbstatic.djyde.com/assets/006tNbRwgy1ffihstvr4cj30j50ej406.jpg)
 
 我那时非常中二，成立了自己的虚拟软件工作室，取名「网帝」。这是一个充满抱负的名字，因为他的含义是「互联网帝王」。
 
 软件上线了以后，在各个软件站的下载量很不错，于是我又马不停蹄地开发了第二个软件，叫「网帝 QQ2009 去广告精灵」，用来去 QQ2009 里的广告的。
 
-![网帝 QQ2009 去广告精灵]\(https://gbstatic.djyde.com/assets/006tNbRwgy1ffihwq5n5vj30cz0a3wfu.jpg)
+![网帝 QQ2009 去广告精灵](https://gbstatic.djyde.com/assets/006tNbRwgy1ffihwq5n5vj30cz0a3wfu.jpg)
 
 我那时候开始泡易语言的论坛，结识了很多论坛里的大牛，那时候称「大虾」。我记得有一个网名叫「凝逸」的版主，用易语言开发了一个叫「凝逸反病毒」的杀毒软件。我很震惊，因为我非常好奇杀毒软件的工作原理。于是我在他的帖子里询问，但是他没有回过我一次。
 
 我又通过自己的摸索，做了一个可以根据病毒库查找病毒、保护 IE 主页的杀毒软件，「极光反病毒」。
 
-![极光反病毒]\(https://gbstatic.djyde.com/assets/006tNbRwgy1ffii37s8ejj30ik0emmym.jpg)
+![极光反病毒](https://gbstatic.djyde.com/assets/006tNbRwgy1ffii37s8ejj30ik0emmym.jpg)
 
 以上三个软件是我做桌面软件时的产出，当时还在读初一。做完极光反病毒的第一版后，我觉得这种反病毒太傻，要依赖特征库去匹配病毒。病毒稍微变种，就查不出来了。于是我想要做一个防御式的反病毒工具，根据文件的行为，来判断它是不是病毒。比如如果这个文件在不断复制自己，那么它肯定是病毒。
 
@@ -63,7 +63,7 @@ pin: true
 
 2010 年年底有一部电影对我影响很大，讲 Zuckerberg 创立 Facebook 的经历，叫《社交网络》。
 
-![The Social Network]\(https://gbstatic.djyde.com/assets/006tNbRwgy1ffify2ip6jj30bk0go40a.jpg)
+![The Social Network](https://gbstatic.djyde.com/assets/006tNbRwgy1ffify2ip6jj30bk0go40a.jpg)
 
 这部电影我反复看了 7, 8 遍，我觉得用技术做出有很多人喜欢的产品太酷了，我很想成为这样的人，应该是我终身奋斗的目标。这部电影，直接导致我放弃了桌面软件开发，正式转向了 Web 开发。
 
