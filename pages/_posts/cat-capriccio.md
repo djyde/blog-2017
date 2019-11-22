@@ -19,7 +19,7 @@ cover: https://gbstatic.djyde.com/assets/006tNc79gy1fiql3pxyssj31kw11x0w8.jpg?x-
 
 她不会完全信任我，她吃东西，我路过，她有时还是会立刻跑开。帮她滴清耳液的时候，她看到我拿着瓶子也会跑开。但有时候我觉得她也很信任我，每次回家，不管她的时候她都要一直叫，非要爬过来腿上让我摸才停。养猫有趣的地方就是这里，你要向一种时刻保持警惕的生物身上获得信任。
 
-![来我家第二天，对我的第一次试探]\(https://gbstatic.djyde.com/assets/006tNc79gy1fiqjq2lx3rj30qo0zk458.jpg)
+![来我家第二天，对我的第一次试探](https://gbstatic.djyde.com/assets/006tNc79gy1fiqjq2lx3rj30qo0zk458.jpg)
 
 第一次带她去医院打疫苗，在医院里我和几个素味谋面的猫主人狗主人竟然可以自然地打成一片，互相交流育宠经验，然后让自己的宠物见一见对方的宠物。大家都像妈妈们互相交流育儿经验似的。
 
