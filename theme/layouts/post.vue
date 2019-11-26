@@ -4,7 +4,7 @@
     <div v-if="page.cover" class="bg-cover" :style="{ paddingBottom: '40%', backgroundImage: `url('${page.cover}')`}"></div>
     <div class="post container mx-auto lg:pl-48 lg:pr-48" >
       <h1 class="pl-4 pr-4">{{ page.title }}</h1>
-      <div v-if="page.date" class="text-sm text-gray-500 pl-4 pr-4">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
+      <div v-if="page.date" class="mb-2 text-sm text-gray-500 pl-4 pr-4">{{ dayjs(page.date).format('MMMM DD, YYYY') }}</div>
       <div class="content">
         <slot />
       </div>
