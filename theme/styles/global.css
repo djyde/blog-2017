@@ -58,7 +58,11 @@ h6 {
 }
 
 .post ul {
-  @apply list-disc list-inside pl-4 pr-4;
+  @apply list-disc list-inside pl-4 pr-4 mt-4;
+}
+
+.post li {
+  @apply mb-2;
 }
 
 .post ol {
@@ -66,12 +70,9 @@ h6 {
 }
 
 .post blockquote {
-  @apply bg-gray-200 text-sm text-gray-500 p-4 border-l-4 border-gray-500 italic text-lg;
+  @apply bg-gray-200 text-gray-500 p-4 border-l-4 border-gray-500 italic;
 }
 
-.post blockquote {
-  @apply text-sm !important;
-}
 
 .twitter {
   color: #0C9DF2;
@@ -97,4 +98,8 @@ h6 {
 
 iframe {
   max-width: 100%;
+}
+
+strong {
+  @apply bg-gray-200 p-1; 
 }
