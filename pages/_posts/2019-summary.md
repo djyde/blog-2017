@@ -52,7 +52,7 @@ layout: post
 
 《学会提问：批判式思维指南》（[豆瓣](https://book.douban.com/subject/20428922/) | [购买](https://lutaonan.com/go/shop/critical-thinking)）
 
-<p class="text-sm">这本书提到了几个常见的逻辑谬误，以及如何去看待别人的评价，如何得出自己思考过的结论。这本书没有教你应该相信谁，而是不应该相信谁。</p>
+<p class="text-sm">这本书提到了几个常见的逻辑谬误，以及如何去看待别人的观点，如何得出自己思考过的结论。这本书没有教你应该相信谁，而是不应该相信谁。</p>
 
 《非暴力沟通》（[豆瓣](https://book.douban.com/subject/3533221/) | [购买](https://lutaonan.com/go/shop/nonviolent-communication)）
 
