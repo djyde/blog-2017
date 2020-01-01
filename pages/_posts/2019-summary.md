@@ -62,7 +62,7 @@ layout: post
 
 《颓废与沉默》（[豆瓣](https://book.douban.com/subject/26575643/) | [购买](https://lutaonan.com/go/shop/tui-fei-yu-chen-mo)）
 
-<p class="text-sm">这本书结合中国发生的实例解释了中国存在的「犬儒主义」，和它产生的原因和影响。</p>
+<p class="text-sm">这本书结合中国发生的实例解释了中国存在的「犬儒主义」，和它产生的原因和影响。</p>
 
 
 ### 消费
