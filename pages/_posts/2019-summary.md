@@ -30,7 +30,7 @@ layout: post
 
 ![博客数据](https://gbstatic.djyde.com/tg_image_2920303564.jpeg?x-oss-process=style/80)
 
-今年博客的 UV 比上一年多了 10, 000. PV 比上一年多了 40, 000. [《健身一年》](http://localhost:3000/blog/one-year-of-bulking) 问率最高。
+今年博客的 UV 比上一年多了 10, 000. PV 比上一年多了 40, 000. [《健身一年》](https://lutaonan.com/blog/one-year-of-bulking) 问率最高。
 
 博客没有广告，所有收入来源于读者自发赞赏，今年收到的赞赏总共有约 200 元人民币。
 
