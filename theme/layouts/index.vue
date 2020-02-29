@@ -1,11 +1,11 @@
 <template>
   <div>
     <nav-header active-nav="writings" />
-    <div class="mt-12 font-bold font-sans text-gray-500 text-center">Featured</div>
+    <div class="mt-12 font-bold font-sans text-gray-500 text-center mb-6">Featured</div>
 
     <div>
       <div
-        class="mt-1 text-gray-900 text-center"
+        class="mt-2 text-gray-900 text-center sm:max-w-md sm:text-left sm:mx-auto md:max-w-xl"
         v-for="post in postsByGroup.featured"
         :key="post.permalink"
       >
@@ -16,11 +16,11 @@
       </div>
     </div>
 
-    <div class="mt-12 font-bold font-sans text-gray-500 text-center">Posts</div>
+    <div class="mt-12 font-bold font-sans text-gray-500 text-center mb-6">Posts</div>
 
     <div>
       <div
-        class="mt-1 text-gray-900 text-center"
+        class="mt-2 text-gray-900 text-center sm:max-w-md sm:text-left sm:mx-auto md:max-w-xl"
         v-for="post in postsByGroup.others"
         :key="post.permalink"
       >
