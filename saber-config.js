@@ -26,7 +26,9 @@ module.exports = {
     }
   ],
   siteConfig: {
+    title: `Randy's Blog`,
     url: 'https://lutaonan.com',
+    description: `Randy is blogging about life, tech, music`,
     author: 'Randy',
     email: 'randypriv@gmail.com'
   },
