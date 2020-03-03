@@ -55,6 +55,8 @@ permalink: /resume
 >
 > —— [DavidSacks](https://twitter.com/DavidSacks/status/1172978856883417088)
 
+我基本無障礙閱讀英文資料以及和社區交流。
+
 ## 我想做什麼樣的工作
 
 - Make the world a better place :P
