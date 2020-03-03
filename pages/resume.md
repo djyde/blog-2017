@@ -60,3 +60,9 @@ permalink: /resume
 - Make the world a better place :P
 - 做用戶覺得有價值，體驗好的產品，而不是想盡辦法引導用戶點擊進來
 - 有使命感（參考 [Apple Environment](https://www.apple.com/hk/environment/)），有人文關懷（參考 [Apple Accessiblility](https://www.apple.com/hk/accessibility/)）
+
+
+## 聯繫方式
+
+- Email: randypriv at gmail
+- Telegram: https://t.me/djyde
