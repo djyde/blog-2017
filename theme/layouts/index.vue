@@ -9,10 +9,10 @@
         v-for="post in postsByGroup.featured"
         :key="post.permalink"
       >
-        <a class="hover:text-gray-600" :href="post.permalink">{{ post.title }}</a>
         <span
-          class="text-gray-500 text-sm hidden sm:inline-block"
-        >({{ dayjs(post.date).format('MMM DD, YYYY') }})</span>
+          class="text-gray-500 text-xs hidden sm:inline-block mr-2"
+        >{{ dayjs(post.date).format('YYYY-MM-DD') }}</span>
+        <a class="hover:text-gray-600" :href="post.permalink">{{ post.title }}</a>
       </div>
     </div>
 
@@ -24,10 +24,10 @@
         v-for="post in postsByGroup.others"
         :key="post.permalink"
       >
-        <a class="hover:text-gray-600" :href="post.permalink">{{ post.title }}</a>
         <span
-          class="text-gray-500 text-sm hidden sm:inline-block"
-        >({{ dayjs(post.date).format('MMM DD, YYYY') }})</span>
+          class="text-gray-500 text-xs hidden sm:inline-block mr-2"
+        >{{ dayjs(post.date).format('YYYY-MM-DD') }}</span>
+        <a class="hover:text-gray-600" :href="post.permalink">{{ post.title }}</a>
       </div>
     </div>
   </div>
@@ -80,11 +80,11 @@ export default {
           content: this.$siteConfig.url
         },
         {
-          property: 'og:image',
+          property: "og:image",
           content: this.$themeConfig.avatar
         }
       ]
-    }
+    };
   },
   mounted() {}
 };
