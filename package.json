@@ -10,7 +10,6 @@
   "scripts": {
     "start": "saber",
     "build": "saber build",
-    "prepublish": "npm version patch && npm run build",
     "genlink": "genlink links.json --permalink /link --outDir public",
     "deploy": "npm run build && npm run genlink && node deploy.js",
     "deploy:only": "node deploy"
