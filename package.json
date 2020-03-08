@@ -5,12 +5,12 @@
     "version": "3.8.0"
   },
   "files": [
-    ".saber"
+    "public"
   ],
   "scripts": {
     "start": "saber",
     "build": "saber build",
-    "prepublish": "npm patch && npm run build",
+    "prepublish": "npm version patch && npm run build",
     "genlink": "genlink links.json --permalink /link --outDir public",
     "deploy": "npm run build && npm run genlink && node deploy.js",
     "deploy:only": "node deploy"
