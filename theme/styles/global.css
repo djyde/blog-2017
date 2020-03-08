@@ -4,6 +4,7 @@
 
 @tailwind utilities;
 
+@import "./font.css";
 
 html {
   font-family: "Noto Serif SC", Lusitana, serif;

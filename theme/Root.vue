@@ -32,12 +32,6 @@ export default {
           content: this.$themeConfig.title
         }
       ],
-      link: [
-        {
-          rel: "stylesheet",
-          href: "//ppp.djyde.com/css?family=Noto+Serif+SC"
-        }
-      ]
     };
   }
 };

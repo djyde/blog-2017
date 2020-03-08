@@ -1,13 +1,16 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@djyde/blog",
+  "version": "1.0.0",
   "hexo": {
     "version": "3.8.0"
   },
+  "files": [
+    ".saber"
+  ],
   "scripts": {
     "start": "saber",
     "build": "saber build",
+    "prepublish": "npm patch && npm run build",
     "genlink": "genlink links.json --permalink /link --outDir public",
     "deploy": "npm run build && npm run genlink && node deploy.js",
     "deploy:only": "node deploy"
@@ -16,7 +19,7 @@
     "ie > 8",
     "last 2 versions"
   ],
-  "dependencies": {
+  "devDependencies": {
     "dayjs": "^1.8.16",
     "gh-pages": "^2.1.1",
     "lodash": "^4.17.15",
@@ -27,9 +30,7 @@
     "saber-plugin-google-analytics": "^0.2.1",
     "saber-plugin-prismjs": "^0.2.3",
     "saber-plugin-query-posts": "^0.4.4",
-    "tailwindcss": "^1.1.3"
-  },
-  "devDependencies": {
+    "tailwindcss": "^1.1.3",
     "@egoist/md-colors": "^1.1.0",
     "autoprefixer": "^9.6.4",
     "genlink": "^1.0.0"
