@@ -74,6 +74,10 @@ h6 {
   @apply bg-gray-200 text-gray-500 p-4 border-l-4 border-gray-500 italic;
 }
 
+img.screen {
+  width: 375px !important;
+}
+
 
 .twitter {
   color: #0C9DF2;
