@@ -79,8 +79,8 @@ module.exports = {
       },
       {
         "className": "weibo",
-        "href": "http://weibo.com/djyde",
-        "title": "@米斯特软的"
+        "href": "https://weibo.com/7323450204",
+        "title": "@我是米斯特软的"
       },
       {
         "className": "zhihu",
