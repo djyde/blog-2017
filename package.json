@@ -23,7 +23,7 @@
     "gh-pages": "^2.1.1",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.21.0",
     "saber": "^0.11.2",
     "saber-plugin-feed": "^0.4.3",
     "saber-plugin-google-analytics": "^0.2.1",
